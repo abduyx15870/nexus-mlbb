@@ -1,0 +1,127 @@
+Miya|Moon Arrow|Basic attack bilan bir nechta nishonga o‘q yuborish|Arrow of Eclipse|Tanlangan hududdagi raqiblarni immobilize qilish
+Balmond|Soul Lock|Oldinga dash qilib raqib bilan to‘qnashish|Cyclone Sweep|Aylanib yaqin nishonlarga davomiy zarba berish
+Saber|Orbiting Swords|Atrofida aylanuvchi qilichlarni chiqarish|Charge|Oldinga siljib keyingi hujumga imkon yaratish
+Alice|Flowing Blood|Shar yuborib uning joyiga teleport bo‘lish|Blood Awe|Yaqin raqiblarni immobilize qilish
+Nana|Magic Boomerang|Oldinga qaytuvchi boomerang tashlash|Molina Smooch|Molina bilan raqibni o‘zgartirish
+Tigreal|Attack Wave|Oldinga zarba to‘lqini chiqarish|Sacred Hammer|Raqibni surib, qayta ishlatishda havoga ko‘tarish
+Alucard|Groundsplitter|Belgilangan joyga sakrab zarba berish|Whirling Smash|Atrofdagi nishonlarga qilich bilan zarba berish
+Karina|Dance of Blades|Basic attackka qarshi himoya oynasi bilan harakatlanish|Dance of Death|Atrofida aylanib magic zarar yetkazish
+Akai|Headbutt|Oldinga yugurib nishonga urilish|Body Slam|Atrofdagi nishonlarga zarba berish
+Franco|Iron Hook|Hook tekkan nishonni o‘ziga tortish|Fury Shock|Yaqindagi raqiblarga zarar va slow berish
+Bane|Crab Claw Cannon|Nishonga snaryad otish|Ale|Ichimlik orqali tiklanib, keyin purkash
+Bruno|Volley Shot|Keyingi basic attack uchun kuchli to‘p tayyorlash|Flying Tackle|Oldinga sirpanib nishonni stun qilish
+Clint|Quick Draw|Oldinga bir nechta o‘q otish|Trapping Recoil|To‘r yuborib orqaga siljish
+Rafaela|Light of Retribution|Yaqindagi raqiblarni skill bilan tekshirib slow qilish|Holy Healing|Ittifoqchilarni davolab harakatiga yordam berish
+Eudora|Forked Lightning|Oldidagi hududga chaqmoq zarbasi berish|Ball Lightning|Tanlangan nishonga stun yuborish
+Zilong|Spear Flip|Nishonni o‘zining orqa tomoniga uloqtirish|Spear Strike|Nishonga tez yaqinlashib zarba berish
+Fanny|Tornado Strike|Atrofga aylanma zarba berish|Steel Cable|Devorlarga cable ulab harakatlanish
+Layla|Malefic Bomb|Uzoq nishonga projectile otish|Void Projectile|Raqibga projectile orqali belgi va slow qo‘yish
+Minotaur|Despair Stomp|Sakrab tushib raqiblarni havoga ko‘tarish|Motivation Roar|Yaqin ittifoqchilarning HPsini tiklash
+Lolita|Power Charge|Dash qilib keyingi basic attackni kuchaytirish|Guardian’s Reflection|Yo‘nalgan qalqon orqali projectile’larni qaytarish
+Hayabusa|Ninjutsu: Phantom Shuriken|Bir nechta shuriken chiqarish|Ninjutsu: Quad Shadow|Soyalarni yaratib joy almashtirish
+Freya|Leap of Faith|Belgilangan joyga sakrab nishonlarni yaqinlashtirish|Spirit Combo|Ketma-ket qisqa skill zarbalarini ulash
+Gord|Mystic Projectile|Sakrovchi shar bilan stun berish|Mystic Injunction|Tanlangan maydonda davomiy magic zarar
+Natalia|Claw Dash|Oldinga dash bilan zarba berish|Smoke Bomb|Tutun hududida basic attackka qarshi himoya
+Kagura|Seimei Umbrella Open|Soyabonni belgilangan joyga yuborish|Rasho Umbrella Flee|Soyabon holatiga qarab qochish yoki unga qaytish
+Chou|Jeet Kune Do|Ketma-ket zarbalar oxirida knock-up berish|Shunpo|Qisqa dash va himoya oynasi
+Sun|Endless Variety|Tayoq orqali klon yaratish|Swift Exchange|Tayoq yo‘li orqali o‘z joyini almashtirish
+Alpha|Rotary Impact|Oldinga chiziqli zarba berish|Force Swing|Keng yoy zarbasi bilan urib tiklanish
+Ruby|Be Good!|Oldinga slash va slow berish|Don’t Run, Wolf King!|Atrofdagi yaqin raqiblarni nazorat qilish
+Yi Sun-shin|Traceless|Oldinga siljib jangdagi pozitsiyani almashtirish|Blood Floods|Zaryadlangan uzoq zarba yuborish
+Moskov|Abyss Walker|Qisqa teleport orqali hujum pozitsiyasini olish|Spear of Misery|Nishonni surib devor bilan stun yaratish
+Johnson|Deadly Pincers|Uloqtirilgan asbob bilan stun berish|Electromag Rays|Oldingi hududga uzluksiz magic zarar
+Cyclops|Stardust Shock|Ketma-ket energiya to‘lqinlarini yuborish|Planets Attack|Atrofidagi sharlar bilan yaqin nishonga hujum
+Estes|Moonlight Immersion|Bir ittifoqchini bog‘lanib davolash|Domain of Moon Goddess|Hudud chetida kuchli slow yaratish
+Hilda|Combat Ritual|Harakat tezligi va kuchli basic attack olish|Art of Hunting|Nishonga ketma-ket zarbalar bilan bosim qilish
+Aurora|Hailstone Blast|Oldinga muz zarbasi yuborish|Frosty Breeze|Oldidagi hududni muzlatib nazorat qilish
+Lapu-Lapu|Justice Blades|Ikkita pichoqni oldinga uloqtirish|Jungle Warrior|Oldinga siljib nishonlarga zarba berish
+Vexana|Deathly Grasp|Oldinga qo‘l yuborib qo‘rquv nazorati berish|Cursed Blast|Belgilangan joyda kechikkan portlash yaratish
+Roger|Open Fire|Odam shaklida oldinga ikki o‘q otish|Hunter’s Steps|Odam shaklida tezroq harakatlanish
+Karrie|Spinning Lightwheel|Oldinga g‘ildirak yuborib hududni sekinlashtirish|Phantom Step|Qisqa dash bilan hujum joyini almashtirish
+Gatotkaca|Blast Iron Fist|Oldinga davomiy zararli yo‘lak yaratish|Unbreakable|Zaryadlangan dash bilan taunt berish
+Harley|Poker Trick|Bir yo‘nalishda kartalar otish|Space Escape|Shlyapa qoldirib joy almashtirish va qaytish
+Irithel|Strafe|Oldingi maydonga o‘qlar yog‘dirish|Force of the Queen|Yaqin raqiblarga slow bilan ovoz zarbasi
+Grock|Power of Nature|Zaryadlangan keng zarba tayyorlash|Guardian’s Barrier|Yo‘lni to‘sadigan devor yaratish
+Argus|Demonic Grip|Qo‘l bilan oldinga tortilib borish|Meteoric Sword|Oldinga qilich sanchish
+Odette|Avian Authority|Oldinga oqqush shaklidagi projectile yuborish|Blue Nova|Shar bilan immobilize va sakrovchi nazorat
+Lancelot|Puncture|Nishonlardan o‘tib dashni davom ettirish|Thorned Rose|Uchburchak hududda vaqtli xavfsiz zarba
+Diggie|Auto Alarm Bomb|Hududga kuzatuvchi bomba joylashtirish|Reverse Time|Raqibni belgilangan joyga qaytarish
+Hylos|Law and Order|Nishonni stun bilan ushlash|Ring of Punishment|Atrofida resurs sarflovchi zararli halqa
+Zhask|Nightmaric Spawn|Hujum qiluvchi mavjudot chaqirish|Mind Eater|O‘zi va mavjudoti orqali chiziqli zarba
+Helcurt|Hidden Terror|Belgilangan joyga tez sakrash|Deadly Stinger|Yig‘ilgan stingerni oldinga chiqarish
+Pharsa|Curse of Crow|Belgi qo‘yib keyingi zarbaga stun tayyorlash|Energy Impact|Oldinga magic energiya zarbasi
+Lesley|Master of Camouflage|Kamuflyaj orqali pozitsiya olish|Tactical Grenade|Yaqin raqibni surib o‘zi orqaga chekinish
+Jawhead|Smart Missiles|Atrofdagi nishonlarga raketalar otish|Ejector|Mos nishonni uloqtirib joyini almashtirish
+Angela|Love Waves|Yo‘nalgan to‘lqin bilan heal va zarar berish|Puppet-on-a-String|Nishonni bog‘lab masofa saqlansa nazorat qilish
+Gusion|Sword Spike|Xanjar belgisiga qayta yaqinlashish|Shadowblade Slaughter|Xanjarlarni chiqarib qaytarish
+Valir|Burst Fireball|Olov sharlari bilan masofadan bosim qilish|Searing Torrent|Yaqinlashayotgan raqiblarni surib chiqarish
+Martis|Ashura Aura|Oldingi hududdagi raqiblarni tortib nazorat qilish|Mortal Coil|Ketma-ket harakatli zarbalar bilan nishonni surish
+Uranus|Ionic Edge|Atrofida aylanuvchi energiya bilan zarar|Transcendent Ward|Dash bilan qalqon olish
+Hanabi|Ninjutsu: Equinox|Qalqon orqali basic attack jangini himoyalash|Ninjutsu: Soul Scroll|Sakrovchi projectile bilan belgi qo‘yish
+Chang'e|Starmoon Shockwave|Oldinga shar yuborib slow berish|Crescent Moon|Qalqon orqali hujumlarni kuchaytirish
+Kaja|Ring of Order|Atrofga kengayuvchi halqa chiqarish|Lightning Bomb|Dash paytida zararli bombalar qoldirish
+Selena|Abyssal Trap|Odam shaklida trap qo‘yish|Abyssal Arrow|Uzoqqa uchuvchi stun o‘qi yuborish
+Aldous|Contract: Soul Steal|Kuchaytirilgan basic attack bilan stack yig‘ish|Contract: Explosion|Himoya holatidan keyin portlash bilan stun berish
+Claude|Art of Thievery|Nishonlardan tezlik foydasini olish|Battle Mirror Image|Belgilangan nusxa bilan teleport almashish
+Vale|Wind Blade|Yonlama keng shamol zarbasi|Windblow|Oldinga ketuvchi shamol bilan knock-up
+Leomord|Momentum|Zaryadlangan oldinga qilich zarbasi|Decimation Assault|Odam shaklida dash bilan zarba
+Lunox|Starlight Pulse|Atrofga magic zarar berib tiklanish|Chaos Assault|Nishonga yo‘nalgan magic zarba
+Hanzo|Ninjutsu: Demon Feast|Mos minion yoki monsterni yutish|Ninjutsu: Soul Reap|Hudud ichida resurs yig‘uvchi zarar
+Belerick|Ancient Seed|Yo‘lakdagi nishonlarni taunt qilish|Nature’s Strike|Tezlik va kuchli basic attack bilan tiklanish
+Kimmy|Energy Transformation|Basic attackni energiya zarbalariga o‘tkazish|Chemical Refinement|Orqaga siljib yo‘lda kimyoviy hudud qoldirish
+Thamuz|Molten Scythes|O‘roqlarni oldinga yuborish|Chasm Trample|Sakrab o‘roqlarni qaytarish va yaqinlashish
+Harith|Synchro Fission|Ikki tomondan keladigan magic portlash|Chrono Dash|Dash bilan kuchli basic attack va qalqon
+Minsitthar|Spear of Glory|Nayza yo‘lidagi nishonlarni tortish|Shield Assault|Oldingi yo‘nalishda qalqonli hujum holati
+Kadita|Ocean Oddity|To‘lqinga minib oldinga harakatlanish|Breath of the Ocean|Belgilangan joyda kechikkan knock-up
+Faramis|Shadow Stampede|Soya holatida yurib nishonlarni tortishga belgilash|Ghost Bursters|Oldinga zarar va sakrovchi bo‘laklar chiqarish
+Badang|Qigong Fist|Oldinga musht to‘lqini yuborish|Fist Break|Dash bilan raqibni surib devor yaratish
+Khufra|Tyrant’s Revenge|Zaryadlanib uzoqqa sakrash|Bouncing Ball|To‘p shaklida dash o‘tishini cheklash
+Granger|Rhapsody|Oldinga bir necha o‘qni ketma-ket otish|Rondo|Qisqa dash bilan nishonlash pozitsiyasini almashtirish
+Guinevere|Energy Wave|Oldinga magic shar yuborish|Spatial Migration|Belgilangan joyga sakrab knock-up berish
+Esmeralda|Frostmoon Shield|Qalqon va tezlik bilan yaqin jangga tayyorlanish|Stardust Dance|Atrofdagi nishonlarga ikki turli zarba
+Terizla|Revenge Strike|Oldinga yoriq zarbasi chiqarish|Execution Strike|Ketma-ket og‘ir bolg‘a zarbalari
+X.Borg|Fire Missiles|Oldinga uzluksiz olov purkash|Fire Stake|Joylashtirilgan qoziqlarni orqaga tortish
+Ling|Finch Poise|Devorga sakrab xarita bo‘ylab yurish|Defiant Sword|Dash yoki devordan tushish orqali zarba
+Dyrroth|Burst Strike|Oldinga slowli zarba to‘lqini|Spectre Step|Nishonga yaqinlashib himoyasini kamaytirish
+Lylia|Magic Shockwave|Oldinga magic to‘lqin yuborish|Shadow Energy|Gloom portlatadigan energiya nuqtalarini qo‘yish
+Baxia|Baxia-Shield Unity|Qalqon shaklida yumalab harakatlanish|Shield of Spirit|Nishonga qalqon snaryadi otish
+Masha|Wild Power|Basic attackni kuchaytiruvchi holat|Howl Shock|Oldinga ovoz to‘lqini bilan nishonga ta’sir qilish
+Wanwan|Swallow’s Path|Qaytuvchi pichoqlar orqali nishonni tekshirish|Needles in Flowers|O‘zidan nazoratni olib tashlash
+Silvanna|Cometic Lance|Oldinga nayza bilan nazoratli zarba|Spiral Strangling|Nayzani aylantirib nishonni hududda ushlash
+Cecilion|Bat Impact|Oldindagi masofali hududga zarba|Sanguine Claws|Ikki tomondagi panjalarni birlashtirib tortish
+Carmilla|Crimson Flower|Atrofida aylanadigan gullar orqali tiklanish|Bloodbath|Tezlik yig‘ib nishonga stun berish
+Atlas|Annihilate|Atrofdagi yerga magic zarba|Perfect Match|Mecha’dan ajralib qayta birlashishda nazorat
+Popol and Kupa|Bite ’em, Kupa!|Kupa’ni nishonga hujumga yuborish|Kupa, Help!|Kupa’ni himoya uchun qaytarish
+Yu Zhong|Dragon Tail|Aylanma zarbaning cheti bilan bosim|Soul Grip|Oldinga tutuvchi zarba bilan keyingi hujumni tayyorlash
+Luo Yi|Dispersion|Nishonlarga Yin yoki Yang belgisi berish|Rotation|Qarama-qarshi belgili hudud yaratish
+Benedetta|Phantom Slash|Orqaga chekinib oldingi hududni kesish|An Eye for an Eye|Vaqtli himoya va qarshi dash
+Khaleed|Desert Tornado|Ketma-ket aylanma qum zarbalari|Quicksand Guard|Joyida HP tiklashga kirish
+Barats|So-Called Teamwork|Oldingi hududga yopishqoq zarar|Missile Expert|Raketalarning portlashi bilan raqibni surish
+Brody|Abyss Impact|Oldinga chiziqli zarba va belgi|Corrosive Strike|Nishonga dash qilib stun berish
+Yve|Void Blast|Tanlangan hududga portlash|Void Crystal|Crystal orqali zararli yo‘lakni yo‘naltirish
+Paquito|Heavy Left Punch|Musht zarbasi bilan qalqon olish|Jab|Oldinga tez musht dash
+Gloo|Slam, Slam|Oldinga yopishqoq zarba nuqtasi qo‘yish|Pass, Pass|Oldinga cho‘zilib nishonlarni nazorat qilish
+Beatrix|Masterful Gunner|Qurol to‘plamini almashtirish|Tactical Reposition|Dash qilib qurolni qayta zaryadlash
+Phoveus|Demonic Impact|Oldinga kuchli zarba bilan bosim|Dark Wave|Oldinga to‘lqin bilan raqibni ko‘tarish
+Natan|Superposition|Oldinga teshib o‘tuvchi energiya zarbasi|Interference!|Raqibni suradigan energiya kuchi
+Aulus|Aulus, Charge!|Tez harakat va yo‘nalgan himoya|The Power of Axe|Bolta zarbasi bilan keyingi hujumlarni tayyorlash
+Aamon|Soul Shards|Yig‘ilgan shardlar bilan nishonga zarba|Slayer Shards|Shard yuborib qaytish orqali kamuflyajga kirish
+Floryn|Sow|Nishonga zarba berib ittifoqchiga heal yetkazish|Sprout|Oldinga energiya bilan stun berish
+Valentina|Shadow Strike|Konussimon zarba va takroriy nazorat|Arcane Shade|Dash bilan soyali zarbalar chiqarish
+Edith|Earth Shatter|Phylax shaklida kechikkan knock-up|Onward|Phylax dash bilan nishonni orqaga uloqtirish
+Yin|Charged Punch|Keyingi basic attackdan kuchli musht zarbasi|Instant Blast|Oldinga dash va orqadan qaytuvchi stun
+Melissa|Falling!|Dash bilan basic attack tezligini kuchaytirish|Eyes on You!|Qo‘g‘irchoq orqali raqiblarni bog‘lash
+Xavier|Infinite Extension|Oldinga teshib o‘tuvchi magic zarba|Mystic Field|Chiziqli maydon orqali ittifoqchi va raqibga turli ta’sir
+Julian|Scythe|Oldinga o‘roq projectile chiqarish|Sword|Qilich orqali oldinga dash
+Fredrinn|Piercing Strike|Oldinga qilich sanchib keyingi hujumni kuchaytirish|Brave Assault|Dashdan keyin basic attack orqali knock-up
+Joy|Look, Crystals!|Nishon joyga crystal qo‘yish|Meow, Rhythm of Joy!|Ritm bo‘yicha takroriy dash
+Novaria|Astral Meteor|Tanlangan joyga meteor yog‘dirish|Astral Recall|Masofa bilan kuchayadigan sharni yuborish
+Arlott|Dauntless Strike|Oldinga zarba orqali nazorat berish|Vengeance|Belgili nishonga dash qilib reset olish
+Ixia|Dual Beam|Ikki chiziqli nurni oldinga otish|Star Helix|Oldidagi nishonlarni ko‘chirish va to‘plash
+Nolan|Expansion|Oldinga yoriq hosil qiluvchi zarba|Gauge|Qisqa dash orqali yoriq qo‘yish
+Cici|Yo-Yo Blitz|Harakatda nishonga yo-yo zarbalari|Buoyant Bounce|Sakrab pozitsiya almashtirish
+Chip|Crash Course|Yaqin nishonlarga hovercraft bilan zarba|Overtime|Tez harakat va keyingi hujum bilan nazorat
+Zhuxin|Fluttering Grace|Oldingi hududga slow beruvchi magic zarba|Lantern Flare|Lantern hududi bilan stack yig‘ib nishonni ko‘tarish
+Suyou|Blade Surge|Bosish yoki ushlab turishga qarab yaqinlashish|Soul Sever|Bosish yoki ushlab turishga qarab zarbani o‘zgartirish
+Lukas|Flash Combo|Yig‘ilgan resursga qarab kuchayuvchi combo|Flash Step|Dashdan keyin kuchli hujum tayyorlash
+Kalea|Wavebreaker|Oldingi yo‘nalishda suv zarbasi|Tidal Strike|Sakrash va zarba orqali pozitsiya olish

@@ -1,0 +1,4963 @@
+[
+  {
+    "id": "miya",
+    "name": "Miya",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Moonlight Shadow",
+    "specialty": "Hujum tezligi va masofadan zarba",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Moon Arrow",
+        "effect": "Basic attack bilan bir nechta nishonga o‘q yuborish"
+      },
+      {
+        "name": "Arrow of Eclipse",
+        "effect": "Tanlangan hududdagi raqiblarni immobilize qilish"
+      }
+    ]
+  },
+  {
+    "id": "balmond",
+    "name": "Balmond",
+    "role": "Fighter",
+    "lane": "Jungle",
+    "ultimate": "Lethal Counter",
+    "specialty": "Aylanma zarba va yakunlash",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Soul Lock",
+        "effect": "Oldinga dash qilib raqib bilan to‘qnashish"
+      },
+      {
+        "name": "Cyclone Sweep",
+        "effect": "Aylanib yaqin nishonlarga davomiy zarba berish"
+      }
+    ]
+  },
+  {
+    "id": "saber",
+    "name": "Saber",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Triple Sweep",
+    "specialty": "Bitta nishonga nazorat va burst",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Orbiting Swords",
+        "effect": "Atrofida aylanuvchi qilichlarni chiqarish"
+      },
+      {
+        "name": "Charge",
+        "effect": "Oldinga siljib keyingi hujumga imkon yaratish"
+      }
+    ]
+  },
+  {
+    "id": "alice",
+    "name": "Alice",
+    "role": "Mage/Tank",
+    "lane": "EXP",
+    "ultimate": "Blood Ode",
+    "specialty": "Jang ichida tiklanish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Flowing Blood",
+        "effect": "Shar yuborib uning joyiga teleport bo‘lish"
+      },
+      {
+        "name": "Blood Awe",
+        "effect": "Yaqin raqiblarni immobilize qilish"
+      }
+    ]
+  },
+  {
+    "id": "nana",
+    "name": "Nana",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Molina Blitz",
+    "specialty": "Molina orqali hudud nazorati",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Magic Boomerang",
+        "effect": "Oldinga qaytuvchi boomerang tashlash"
+      },
+      {
+        "name": "Molina Smooch",
+        "effect": "Molina bilan raqibni o‘zgartirish"
+      }
+    ]
+  },
+  {
+    "id": "tigreal",
+    "name": "Tigreal",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Implosion",
+    "specialty": "Guruhli nazorat va engage",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Attack Wave",
+        "effect": "Oldinga zarba to‘lqini chiqarish"
+      },
+      {
+        "name": "Sacred Hammer",
+        "effect": "Raqibni surib, qayta ishlatishda havoga ko‘tarish"
+      }
+    ]
+  },
+  {
+    "id": "alucard",
+    "name": "Alucard",
+    "role": "Fighter/Assassin",
+    "lane": "Jungle",
+    "ultimate": "Fission Wave",
+    "specialty": "Yaqin jang va lifesteal",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "passive": "Pursuit",
+    "skills": [
+      "Groundsplitter",
+      "Whirling Smash",
+      "Fission Wave"
+    ],
+    "combo": "Raqibning qattiq CCsi sarflangach kiring. Skilllar orasiga basic attack qo‘shing.",
+    "strengths": "Uzluksiz yaqin jang va lifesteal.",
+    "weaknesses": "Anti-heal, suppression va uzoqdan kite.",
+    "spell": "Retribution",
+    "emblem": "Fighter",
+    "counters": [
+      "baxia",
+      "franco",
+      "kaja"
+    ],
+    "allies": [
+      "rafaela",
+      "angela",
+      "tigreal"
+    ],
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Groundsplitter",
+        "effect": "Belgilangan joyga sakrab zarba berish"
+      },
+      {
+        "name": "Whirling Smash",
+        "effect": "Atrofdagi nishonlarga qilich bilan zarba berish"
+      }
+    ]
+  },
+  {
+    "id": "karina",
+    "name": "Karina",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Shadow Assault",
+    "specialty": "Magic burst va reset",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Dance of Blades",
+        "effect": "Basic attackka qarshi himoya oynasi bilan harakatlanish"
+      },
+      {
+        "name": "Dance of Death",
+        "effect": "Atrofida aylanib magic zarar yetkazish"
+      }
+    ]
+  },
+  {
+    "id": "akai",
+    "name": "Akai",
+    "role": "Tank",
+    "lane": "Jungle",
+    "ultimate": "Heavy Spin",
+    "specialty": "Nishonni surish va objective nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Headbutt",
+        "effect": "Oldinga yugurib nishonga urilish"
+      },
+      {
+        "name": "Body Slam",
+        "effect": "Atrofdagi nishonlarga zarba berish"
+      }
+    ]
+  },
+  {
+    "id": "franco",
+    "name": "Franco",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Bloody Hunt",
+    "specialty": "Hook va suppression",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Iron Hook",
+        "effect": "Hook tekkan nishonni o‘ziga tortish"
+      },
+      {
+        "name": "Fury Shock",
+        "effect": "Yaqindagi raqiblarga zarar va slow berish"
+      }
+    ]
+  },
+  {
+    "id": "bane",
+    "name": "Bane",
+    "role": "Fighter/Mage",
+    "lane": "EXP",
+    "ultimate": "Deadly Catch",
+    "specialty": "Aralash zarar va push",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Crab Claw Cannon",
+        "effect": "Nishonga snaryad otish"
+      },
+      {
+        "name": "Ale",
+        "effect": "Ichimlik orqali tiklanib, keyin purkash"
+      }
+    ]
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "World Wave",
+    "specialty": "Kuchli kritik zarbalar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Volley Shot",
+        "effect": "Keyingi basic attack uchun kuchli to‘p tayyorlash"
+      },
+      {
+        "name": "Flying Tackle",
+        "effect": "Oldinga sirpanib nishonni stun qilish"
+      }
+    ]
+  },
+  {
+    "id": "clint",
+    "name": "Clint",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Grenade Bombardment",
+    "specialty": "Skilldan keyingi masofali zarba",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Quick Draw",
+        "effect": "Oldinga bir nechta o‘q otish"
+      },
+      {
+        "name": "Trapping Recoil",
+        "effect": "To‘r yuborib orqaga siljish"
+      }
+    ]
+  },
+  {
+    "id": "rafaela",
+    "name": "Rafaela",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "Holy Baptism",
+    "specialty": "Heal va tezlik",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Light of Retribution",
+        "effect": "Yaqindagi raqiblarni skill bilan tekshirib slow qilish"
+      },
+      {
+        "name": "Holy Healing",
+        "effect": "Ittifoqchilarni davolab harakatiga yordam berish"
+      }
+    ]
+  },
+  {
+    "id": "eudora",
+    "name": "Eudora",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Thunder's Wrath",
+    "specialty": "Tezkor magic combo",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Forked Lightning",
+        "effect": "Oldidagi hududga chaqmoq zarbasi berish"
+      },
+      {
+        "name": "Ball Lightning",
+        "effect": "Tanlangan nishonga stun yuborish"
+      }
+    ]
+  },
+  {
+    "id": "zilong",
+    "name": "Zilong",
+    "role": "Fighter/Assassin",
+    "lane": "EXP",
+    "ultimate": "Supreme Warrior",
+    "specialty": "Quvish va split push",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Spear Flip",
+        "effect": "Nishonni o‘zining orqa tomoniga uloqtirish"
+      },
+      {
+        "name": "Spear Strike",
+        "effect": "Nishonga tez yaqinlashib zarba berish"
+      }
+    ]
+  },
+  {
+    "id": "fanny",
+    "name": "Fanny",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Cut Throat",
+    "specialty": "Cable orqali harakat",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "passive": "Air Superiority",
+    "skills": [
+      "Tornado Strike",
+      "Steel Cable",
+      "Cut Throat"
+    ],
+    "combo": "Cable yo‘lini oldindan tanlang. Energiya yetishini va qaytish yo‘lini hisoblang.",
+    "strengths": "Juda tez xarita harakati.",
+    "weaknesses": "Energiya nazorati, suppression va invade.",
+    "spell": "Retribution",
+    "emblem": "Assassin",
+    "counters": [
+      "khufra",
+      "kaja",
+      "franco"
+    ],
+    "allies": [
+      "angela",
+      "rafaela",
+      "tigreal"
+    ],
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Tornado Strike",
+        "effect": "Atrofga aylanma zarba berish"
+      },
+      {
+        "name": "Steel Cable",
+        "effect": "Devorlarga cable ulab harakatlanish"
+      }
+    ]
+  },
+  {
+    "id": "layla",
+    "name": "Layla",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Destruction Rush",
+    "specialty": "Uzoq masofali basic attack",
+    "difficulty": "Easy",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Malefic Bomb",
+        "effect": "Uzoq nishonga projectile otish"
+      },
+      {
+        "name": "Void Projectile",
+        "effect": "Raqibga projectile orqali belgi va slow qo‘yish"
+      }
+    ]
+  },
+  {
+    "id": "minotaur",
+    "name": "Minotaur",
+    "role": "Tank/Support",
+    "lane": "Roam",
+    "ultimate": "Minoan Fury",
+    "specialty": "Heal va guruhli knock-up",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Despair Stomp",
+        "effect": "Sakrab tushib raqiblarni havoga ko‘tarish"
+      },
+      {
+        "name": "Motivation Roar",
+        "effect": "Yaqin ittifoqchilarning HPsini tiklash"
+      }
+    ]
+  },
+  {
+    "id": "lolita",
+    "name": "Lolita",
+    "role": "Support/Tank",
+    "lane": "Roam",
+    "ultimate": "Noumenon Blast",
+    "specialty": "Yo‘nalgan qalqon va guruh nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Power Charge",
+        "effect": "Dash qilib keyingi basic attackni kuchaytirish"
+      },
+      {
+        "name": "Guardian’s Reflection",
+        "effect": "Yo‘nalgan qalqon orqali projectile’larni qaytarish"
+      }
+    ]
+  },
+  {
+    "id": "hayabusa",
+    "name": "Hayabusa",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Ougi: Shadow Kill",
+    "specialty": "Soya orqali kirish va qaytish",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ninjutsu: Phantom Shuriken",
+        "effect": "Bir nechta shuriken chiqarish"
+      },
+      {
+        "name": "Ninjutsu: Quad Shadow",
+        "effect": "Soyalarni yaratib joy almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "freya",
+    "name": "Freya",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Valkyrie Descent",
+    "specialty": "Qalqon va yaqin jang",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Leap of Faith",
+        "effect": "Belgilangan joyga sakrab nishonlarni yaqinlashtirish"
+      },
+      {
+        "name": "Spirit Combo",
+        "effect": "Ketma-ket qisqa skill zarbalarini ulash"
+      }
+    ]
+  },
+  {
+    "id": "gord",
+    "name": "Gord",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Mystic Gush",
+    "specialty": "Uzluksiz yo‘nalgan magic zarar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Mystic Projectile",
+        "effect": "Sakrovchi shar bilan stun berish"
+      },
+      {
+        "name": "Mystic Injunction",
+        "effect": "Tanlangan maydonda davomiy magic zarar"
+      }
+    ]
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "role": "Assassin",
+    "lane": "Roam",
+    "ultimate": "The Hunt",
+    "specialty": "Yashirin yaqinlashish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Claw Dash",
+        "effect": "Oldinga dash bilan zarba berish"
+      },
+      {
+        "name": "Smoke Bomb",
+        "effect": "Tutun hududida basic attackka qarshi himoya"
+      }
+    ]
+  },
+  {
+    "id": "kagura",
+    "name": "Kagura",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Yin Yang Overturn",
+    "specialty": "Soyabon bilan combo",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Seimei Umbrella Open",
+        "effect": "Soyabonni belgilangan joyga yuborish"
+      },
+      {
+        "name": "Rasho Umbrella Flee",
+        "effect": "Soyabon holatiga qarab qochish yoki unga qaytish"
+      }
+    ]
+  },
+  {
+    "id": "chou",
+    "name": "Chou",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "The Way of Dragon",
+    "specialty": "Nishonni jamoaga tepish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Jeet Kune Do",
+        "effect": "Ketma-ket zarbalar oxirida knock-up berish"
+      },
+      {
+        "name": "Shunpo",
+        "effect": "Qisqa dash va himoya oynasi"
+      }
+    ]
+  },
+  {
+    "id": "sun",
+    "name": "Sun",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Clone Techniques",
+    "specialty": "Klonlar va split push",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Endless Variety",
+        "effect": "Tayoq orqali klon yaratish"
+      },
+      {
+        "name": "Swift Exchange",
+        "effect": "Tayoq yo‘li orqali o‘z joyini almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "alpha",
+    "name": "Alpha",
+    "role": "Fighter",
+    "lane": "Jungle",
+    "ultimate": "Spear of Alpha",
+    "specialty": "Beta yordami va sustain",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Rotary Impact",
+        "effect": "Oldinga chiziqli zarba berish"
+      },
+      {
+        "name": "Force Swing",
+        "effect": "Keng yoy zarbasi bilan urib tiklanish"
+      }
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "I'm Offended!",
+    "specialty": "Qayta-qayta CC va sustain",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Be Good!",
+        "effect": "Oldinga slash va slow berish"
+      },
+      {
+        "name": "Don’t Run, Wolf King!",
+        "effect": "Atrofdagi yaqin raqiblarni nazorat qilish"
+      }
+    ]
+  },
+  {
+    "id": "yi-sun-shin",
+    "name": "Yi Sun-shin",
+    "role": "Assassin/Marksman",
+    "lane": "Jungle",
+    "ultimate": "Mountain Shocker",
+    "specialty": "Xaritani ochuvchi ultimate",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Traceless",
+        "effect": "Oldinga siljib jangdagi pozitsiyani almashtirish"
+      },
+      {
+        "name": "Blood Floods",
+        "effect": "Zaryadlangan uzoq zarba yuborish"
+      }
+    ]
+  },
+  {
+    "id": "moskov",
+    "name": "Moskov",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Spear of Destruction",
+    "specialty": "Teshib o‘tuvchi basic attack",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Abyss Walker",
+        "effect": "Qisqa teleport orqali hujum pozitsiyasini olish"
+      },
+      {
+        "name": "Spear of Misery",
+        "effect": "Nishonni surib devor bilan stun yaratish"
+      }
+    ]
+  },
+  {
+    "id": "johnson",
+    "name": "Johnson",
+    "role": "Tank/Support",
+    "lane": "Roam",
+    "ultimate": "Rapid Touchdown",
+    "specialty": "Mashina shaklida rotatsiya",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Deadly Pincers",
+        "effect": "Uloqtirilgan asbob bilan stun berish"
+      },
+      {
+        "name": "Electromag Rays",
+        "effect": "Oldingi hududga uzluksiz magic zarar"
+      }
+    ]
+  },
+  {
+    "id": "cyclops",
+    "name": "Cyclops",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Star Power Lockdown",
+    "specialty": "Qisqa skill sikli va ta’qib",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Stardust Shock",
+        "effect": "Ketma-ket energiya to‘lqinlarini yuborish"
+      },
+      {
+        "name": "Planets Attack",
+        "effect": "Atrofidagi sharlar bilan yaqin nishonga hujum"
+      }
+    ]
+  },
+  {
+    "id": "estes",
+    "name": "Estes",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "Blessing of Moon Goddess",
+    "specialty": "Guruhli heal",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Moonlight Immersion",
+        "effect": "Bir ittifoqchini bog‘lanib davolash"
+      },
+      {
+        "name": "Domain of Moon Goddess",
+        "effect": "Hudud chetida kuchli slow yaratish"
+      }
+    ]
+  },
+  {
+    "id": "hilda",
+    "name": "Hilda",
+    "role": "Fighter/Tank",
+    "lane": "Roam",
+    "ultimate": "Power of Wildness",
+    "specialty": "Bush orqali bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Combat Ritual",
+        "effect": "Harakat tezligi va kuchli basic attack olish"
+      },
+      {
+        "name": "Art of Hunting",
+        "effect": "Nishonga ketma-ket zarbalar bilan bosim qilish"
+      }
+    ]
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Frigid Glacier",
+    "specialty": "Muzlatish va hudud nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Hailstone Blast",
+        "effect": "Oldinga muz zarbasi yuborish"
+      },
+      {
+        "name": "Frosty Breeze",
+        "effect": "Oldidagi hududni muzlatib nazorat qilish"
+      }
+    ]
+  },
+  {
+    "id": "lapu-lapu",
+    "name": "Lapu-Lapu",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Bravest Fighter",
+    "specialty": "Ikki shaklli jangchi",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Justice Blades",
+        "effect": "Ikkita pichoqni oldinga uloqtirish"
+      },
+      {
+        "name": "Jungle Warrior",
+        "effect": "Oldinga siljib nishonlarga zarba berish"
+      }
+    ]
+  },
+  {
+    "id": "vexana",
+    "name": "Vexana",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Eternal Guard",
+    "specialty": "Undead Knight chaqirish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Deathly Grasp",
+        "effect": "Oldinga qo‘l yuborib qo‘rquv nazorati berish"
+      },
+      {
+        "name": "Cursed Blast",
+        "effect": "Belgilangan joyda kechikkan portlash yaratish"
+      }
+    ]
+  },
+  {
+    "id": "roger",
+    "name": "Roger",
+    "role": "Fighter/Marksman",
+    "lane": "Jungle",
+    "ultimate": "Wolf Transformation",
+    "specialty": "Odam va bo‘ri shakli",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Open Fire",
+        "effect": "Odam shaklida oldinga ikki o‘q otish"
+      },
+      {
+        "name": "Hunter’s Steps",
+        "effect": "Odam shaklida tezroq harakatlanish"
+      }
+    ]
+  },
+  {
+    "id": "karrie",
+    "name": "Karrie",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Speedy Lightwheel",
+    "specialty": "True damage passive",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Spinning Lightwheel",
+        "effect": "Oldinga g‘ildirak yuborib hududni sekinlashtirish"
+      },
+      {
+        "name": "Phantom Step",
+        "effect": "Qisqa dash bilan hujum joyini almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "gatotkaca",
+    "name": "Gatotkaca",
+    "role": "Tank/Fighter",
+    "lane": "Roam",
+    "ultimate": "Avatar of Guardian",
+    "specialty": "Taunt va katta engage",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Blast Iron Fist",
+        "effect": "Oldinga davomiy zararli yo‘lak yaratish"
+      },
+      {
+        "name": "Unbreakable",
+        "effect": "Zaryadlangan dash bilan taunt berish"
+      }
+    ]
+  },
+  {
+    "id": "harley",
+    "name": "Harley",
+    "role": "Assassin/Mage",
+    "lane": "Jungle",
+    "ultimate": "Deadly Magic",
+    "specialty": "Magic burst va qaytish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Poker Trick",
+        "effect": "Bir yo‘nalishda kartalar otish"
+      },
+      {
+        "name": "Space Escape",
+        "effect": "Shlyapa qoldirib joy almashtirish va qaytish"
+      }
+    ]
+  },
+  {
+    "id": "irithel",
+    "name": "Irithel",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Heavy Crossbow",
+    "specialty": "Harakatda basic attack",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Strafe",
+        "effect": "Oldingi maydonga o‘qlar yog‘dirish"
+      },
+      {
+        "name": "Force of the Queen",
+        "effect": "Yaqin raqiblarga slow bilan ovoz zarbasi"
+      }
+    ]
+  },
+  {
+    "id": "grock",
+    "name": "Grock",
+    "role": "Tank/Fighter",
+    "lane": "Roam",
+    "ultimate": "Wild Charge",
+    "specialty": "Devor va hudud nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Power of Nature",
+        "effect": "Zaryadlangan keng zarba tayyorlash"
+      },
+      {
+        "name": "Guardian’s Barrier",
+        "effect": "Yo‘lni to‘sadigan devor yaratish"
+      }
+    ]
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Eternal Evil",
+    "specialty": "Qisqa o‘lmaslik oynasi",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Demonic Grip",
+        "effect": "Qo‘l bilan oldinga tortilib borish"
+      },
+      {
+        "name": "Meteoric Sword",
+        "effect": "Oldinga qilich sanchish"
+      }
+    ]
+  },
+  {
+    "id": "odette",
+    "name": "Odette",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Swan Song",
+    "specialty": "Katta hududli magic zarar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Avian Authority",
+        "effect": "Oldinga oqqush shaklidagi projectile yuborish"
+      },
+      {
+        "name": "Blue Nova",
+        "effect": "Shar bilan immobilize va sakrovchi nazorat"
+      }
+    ]
+  },
+  {
+    "id": "lancelot",
+    "name": "Lancelot",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Phantom Execution",
+    "specialty": "Ketma-ket dash va aniqlik",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Puncture",
+        "effect": "Nishonlardan o‘tib dashni davom ettirish"
+      },
+      {
+        "name": "Thorned Rose",
+        "effect": "Uchburchak hududda vaqtli xavfsiz zarba"
+      }
+    ]
+  },
+  {
+    "id": "diggie",
+    "name": "Diggie",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "Time Journey",
+    "specialty": "Guruhni CCdan himoya qilish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Auto Alarm Bomb",
+        "effect": "Hududga kuzatuvchi bomba joylashtirish"
+      },
+      {
+        "name": "Reverse Time",
+        "effect": "Raqibni belgilangan joyga qaytarish"
+      }
+    ]
+  },
+  {
+    "id": "hylos",
+    "name": "Hylos",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Glorious Pathway",
+    "specialty": "Chidamlilik va yo‘l ochish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Law and Order",
+        "effect": "Nishonni stun bilan ushlash"
+      },
+      {
+        "name": "Ring of Punishment",
+        "effect": "Atrofida resurs sarflovchi zararli halqa"
+      }
+    ]
+  },
+  {
+    "id": "zhask",
+    "name": "Zhask",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Dominator's Descent",
+    "specialty": "Nightmaric Spawn orqali nazorat",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Nightmaric Spawn",
+        "effect": "Hujum qiluvchi mavjudot chaqirish"
+      },
+      {
+        "name": "Mind Eater",
+        "effect": "O‘zi va mavjudoti orqali chiziqli zarba"
+      }
+    ]
+  },
+  {
+    "id": "helcurt",
+    "name": "Helcurt",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Dark Night Falls",
+    "specialty": "Ko‘rishni cheklash va ambush",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Hidden Terror",
+        "effect": "Belgilangan joyga tez sakrash"
+      },
+      {
+        "name": "Deadly Stinger",
+        "effect": "Yig‘ilgan stingerni oldinga chiqarish"
+      }
+    ]
+  },
+  {
+    "id": "pharsa",
+    "name": "Pharsa",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Feathered Air Strike",
+    "specialty": "Uzoqdan hududga zarba",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Curse of Crow",
+        "effect": "Belgi qo‘yib keyingi zarbaga stun tayyorlash"
+      },
+      {
+        "name": "Energy Impact",
+        "effect": "Oldinga magic energiya zarbasi"
+      }
+    ]
+  },
+  {
+    "id": "lesley",
+    "name": "Lesley",
+    "role": "Marksman/Assassin",
+    "lane": "Gold",
+    "ultimate": "Ultimate Snipe",
+    "specialty": "Aniq uzoq masofali zarba",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Master of Camouflage",
+        "effect": "Kamuflyaj orqali pozitsiya olish"
+      },
+      {
+        "name": "Tactical Grenade",
+        "effect": "Yaqin raqibni surib o‘zi orqaga chekinish"
+      }
+    ]
+  },
+  {
+    "id": "jawhead",
+    "name": "Jawhead",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Unstoppable Force",
+    "specialty": "Nishonni uloqtirish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Smart Missiles",
+        "effect": "Atrofdagi nishonlarga raketalar otish"
+      },
+      {
+        "name": "Ejector",
+        "effect": "Mos nishonni uloqtirib joyini almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "angela",
+    "name": "Angela",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "Heartguard",
+    "specialty": "Ittifoqchiga ulanish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Love Waves",
+        "effect": "Yo‘nalgan to‘lqin bilan heal va zarar berish"
+      },
+      {
+        "name": "Puppet-on-a-String",
+        "effect": "Nishonni bog‘lab masofa saqlansa nazorat qilish"
+      }
+    ]
+  },
+  {
+    "id": "gusion",
+    "name": "Gusion",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Incandescence",
+    "specialty": "Xanjar bilan tezkor combo",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Sword Spike",
+        "effect": "Xanjar belgisiga qayta yaqinlashish"
+      },
+      {
+        "name": "Shadowblade Slaughter",
+        "effect": "Xanjarlarni chiqarib qaytarish"
+      }
+    ]
+  },
+  {
+    "id": "valir",
+    "name": "Valir",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Vengeance Flame",
+    "specialty": "Surib chiqarish va slow",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Burst Fireball",
+        "effect": "Olov sharlari bilan masofadan bosim qilish"
+      },
+      {
+        "name": "Searing Torrent",
+        "effect": "Yaqinlashayotgan raqiblarni surib chiqarish"
+      }
+    ]
+  },
+  {
+    "id": "martis",
+    "name": "Martis",
+    "role": "Fighter",
+    "lane": "Jungle",
+    "ultimate": "Decimation",
+    "specialty": "CC oynalari va execute",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ashura Aura",
+        "effect": "Oldingi hududdagi raqiblarni tortib nazorat qilish"
+      },
+      {
+        "name": "Mortal Coil",
+        "effect": "Ketma-ket harakatli zarbalar bilan nishonni surish"
+      }
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "role": "Tank",
+    "lane": "EXP",
+    "ultimate": "Consecration",
+    "specialty": "Uzoq jangda tiklanish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ionic Edge",
+        "effect": "Atrofida aylanuvchi energiya bilan zarar"
+      },
+      {
+        "name": "Transcendent Ward",
+        "effect": "Dash bilan qalqon olish"
+      }
+    ]
+  },
+  {
+    "id": "hanabi",
+    "name": "Hanabi",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Higanbana",
+    "specialty": "Sakrovchi basic attack",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ninjutsu: Equinox",
+        "effect": "Qalqon orqali basic attack jangini himoyalash"
+      },
+      {
+        "name": "Ninjutsu: Soul Scroll",
+        "effect": "Sakrovchi projectile bilan belgi qo‘yish"
+      }
+    ]
+  },
+  {
+    "id": "chang-e",
+    "name": "Chang'e",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Meteor Shower",
+    "specialty": "Uzoqdan projectile zarari",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Starmoon Shockwave",
+        "effect": "Oldinga shar yuborib slow berish"
+      },
+      {
+        "name": "Crescent Moon",
+        "effect": "Qalqon orqali hujumlarni kuchaytirish"
+      }
+    ]
+  },
+  {
+    "id": "kaja",
+    "name": "Kaja",
+    "role": "Support/Fighter",
+    "lane": "Roam",
+    "ultimate": "Divine Judgment",
+    "specialty": "Suppression va olib chiqish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ring of Order",
+        "effect": "Atrofga kengayuvchi halqa chiqarish"
+      },
+      {
+        "name": "Lightning Bomb",
+        "effect": "Dash paytida zararli bombalar qoldirish"
+      }
+    ]
+  },
+  {
+    "id": "selena",
+    "name": "Selena",
+    "role": "Assassin/Mage",
+    "lane": "Roam",
+    "ultimate": "Primal Darkness",
+    "specialty": "Trap va uzoq stun",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Abyssal Trap",
+        "effect": "Odam shaklida trap qo‘yish"
+      },
+      {
+        "name": "Abyssal Arrow",
+        "effect": "Uzoqqa uchuvchi stun o‘qi yuborish"
+      }
+    ]
+  },
+  {
+    "id": "aldous",
+    "name": "Aldous",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Contract: Chase Fate",
+    "specialty": "Stack va nishonni quvish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Contract: Soul Steal",
+        "effect": "Kuchaytirilgan basic attack bilan stack yig‘ish"
+      },
+      {
+        "name": "Contract: Explosion",
+        "effect": "Himoya holatidan keyin portlash bilan stun berish"
+      }
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Blazing Duet",
+    "specialty": "Teleport nuqtasi va tez zarbalar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Art of Thievery",
+        "effect": "Nishonlardan tezlik foydasini olish"
+      },
+      {
+        "name": "Battle Mirror Image",
+        "effect": "Belgilangan nusxa bilan teleport almashish"
+      }
+    ]
+  },
+  {
+    "id": "vale",
+    "name": "Vale",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Windstorm",
+    "specialty": "Knock-up va magic burst",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Wind Blade",
+        "effect": "Yonlama keng shamol zarbasi"
+      },
+      {
+        "name": "Windblow",
+        "effect": "Oldinga ketuvchi shamol bilan knock-up"
+      }
+    ]
+  },
+  {
+    "id": "leomord",
+    "name": "Leomord",
+    "role": "Fighter",
+    "lane": "Jungle",
+    "ultimate": "Phantom Steed",
+    "specialty": "Otga minib jang qilish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Momentum",
+        "effect": "Zaryadlangan oldinga qilich zarbasi"
+      },
+      {
+        "name": "Decimation Assault",
+        "effect": "Odam shaklida dash bilan zarba"
+      }
+    ]
+  },
+  {
+    "id": "lunox",
+    "name": "Lunox",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Order & Chaos",
+    "specialty": "Ikki quvvat holati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Starlight Pulse",
+        "effect": "Atrofga magic zarar berib tiklanish"
+      },
+      {
+        "name": "Chaos Assault",
+        "effect": "Nishonga yo‘nalgan magic zarba"
+      }
+    ]
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Kinjutsu: Pinnacle Ninja",
+    "specialty": "Masofadan xavf tug‘dirish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ninjutsu: Demon Feast",
+        "effect": "Mos minion yoki monsterni yutish"
+      },
+      {
+        "name": "Ninjutsu: Soul Reap",
+        "effect": "Hudud ichida resurs yig‘uvchi zarar"
+      }
+    ]
+  },
+  {
+    "id": "belerick",
+    "name": "Belerick",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Wrath of Dryad",
+    "specialty": "Taunt va qaytuvchi zarar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ancient Seed",
+        "effect": "Yo‘lakdagi nishonlarni taunt qilish"
+      },
+      {
+        "name": "Nature’s Strike",
+        "effect": "Tezlik va kuchli basic attack bilan tiklanish"
+      }
+    ]
+  },
+  {
+    "id": "kimmy",
+    "name": "Kimmy",
+    "role": "Marksman/Mage",
+    "lane": "Gold",
+    "ultimate": "Maximum Charge",
+    "specialty": "Nishonlab uzluksiz zarba",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Energy Transformation",
+        "effect": "Basic attackni energiya zarbalariga o‘tkazish"
+      },
+      {
+        "name": "Chemical Refinement",
+        "effect": "Orqaga siljib yo‘lda kimyoviy hudud qoldirish"
+      }
+    ]
+  },
+  {
+    "id": "thamuz",
+    "name": "Thamuz",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Cauterant Inferno",
+    "specialty": "Uzoq yaqin jang",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Molten Scythes",
+        "effect": "O‘roqlarni oldinga yuborish"
+      },
+      {
+        "name": "Chasm Trample",
+        "effect": "Sakrab o‘roqlarni qaytarish va yaqinlashish"
+      }
+    ]
+  },
+  {
+    "id": "harith",
+    "name": "Harith",
+    "role": "Mage",
+    "lane": "Gold",
+    "ultimate": "Zaman Force",
+    "specialty": "Dash va qisqa skill sikli",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Synchro Fission",
+        "effect": "Ikki tomondan keladigan magic portlash"
+      },
+      {
+        "name": "Chrono Dash",
+        "effect": "Dash bilan kuchli basic attack va qalqon"
+      }
+    ]
+  },
+  {
+    "id": "minsitthar",
+    "name": "Minsitthar",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "King's Calling",
+    "specialty": "Dashni cheklovchi hudud",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Spear of Glory",
+        "effect": "Nayza yo‘lidagi nishonlarni tortish"
+      },
+      {
+        "name": "Shield Assault",
+        "effect": "Oldingi yo‘nalishda qalqonli hujum holati"
+      }
+    ]
+  },
+  {
+    "id": "kadita",
+    "name": "Kadita",
+    "role": "Mage/Assassin",
+    "lane": "Mid",
+    "ultimate": "Rough Waves",
+    "specialty": "Kutilmagan magic combo",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Ocean Oddity",
+        "effect": "To‘lqinga minib oldinga harakatlanish"
+      },
+      {
+        "name": "Breath of the Ocean",
+        "effect": "Belgilangan joyda kechikkan knock-up"
+      }
+    ]
+  },
+  {
+    "id": "faramis",
+    "name": "Faramis",
+    "role": "Support/Mage",
+    "lane": "Roam",
+    "ultimate": "Cult Alter",
+    "specialty": "Jamoani jangda saqlash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Shadow Stampede",
+        "effect": "Soya holatida yurib nishonlarni tortishga belgilash"
+      },
+      {
+        "name": "Ghost Bursters",
+        "effect": "Oldinga zarar va sakrovchi bo‘laklar chiqarish"
+      }
+    ]
+  },
+  {
+    "id": "badang",
+    "name": "Badang",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Fist Crack",
+    "specialty": "Devor yonidagi combo",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Qigong Fist",
+        "effect": "Oldinga musht to‘lqini yuborish"
+      },
+      {
+        "name": "Fist Break",
+        "effect": "Dash bilan raqibni surib devor yaratish"
+      }
+    ]
+  },
+  {
+    "id": "khufra",
+    "name": "Khufra",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Tyrant's Rage",
+    "specialty": "Engage va dashni to‘xtatish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Tyrant’s Revenge",
+        "effect": "Zaryadlanib uzoqqa sakrash"
+      },
+      {
+        "name": "Bouncing Ball",
+        "effect": "To‘p shaklida dash o‘tishini cheklash"
+      }
+    ]
+  },
+  {
+    "id": "granger",
+    "name": "Granger",
+    "role": "Marksman",
+    "lane": "Jungle",
+    "ultimate": "Death Sonata",
+    "specialty": "Nishonli o‘q zarbalari",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Rhapsody",
+        "effect": "Oldinga bir necha o‘qni ketma-ket otish"
+      },
+      {
+        "name": "Rondo",
+        "effect": "Qisqa dash bilan nishonlash pozitsiyasini almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "guinevere",
+    "name": "Guinevere",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Violet Requiem",
+    "specialty": "Knock-updan keyingi combo",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Energy Wave",
+        "effect": "Oldinga magic shar yuborish"
+      },
+      {
+        "name": "Spatial Migration",
+        "effect": "Belgilangan joyga sakrab knock-up berish"
+      }
+    ]
+  },
+  {
+    "id": "esmeralda",
+    "name": "Esmeralda",
+    "role": "Tank/Mage",
+    "lane": "EXP",
+    "ultimate": "Falling Starmoon",
+    "specialty": "Qalqon bilan uzoq jang",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Frostmoon Shield",
+        "effect": "Qalqon va tezlik bilan yaqin jangga tayyorlanish"
+      },
+      {
+        "name": "Stardust Dance",
+        "effect": "Atrofdagi nishonlarga ikki turli zarba"
+      }
+    ]
+  },
+  {
+    "id": "terizla",
+    "name": "Terizla",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Penalty Zone",
+    "specialty": "Og‘ir zarba va hudud nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Revenge Strike",
+        "effect": "Oldinga yoriq zarbasi chiqarish"
+      },
+      {
+        "name": "Execution Strike",
+        "effect": "Ketma-ket og‘ir bolg‘a zarbalari"
+      }
+    ]
+  },
+  {
+    "id": "x-borg",
+    "name": "X.Borg",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Last Insanity",
+    "specialty": "Zirh va uzluksiz zarar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Fire Missiles",
+        "effect": "Oldinga uzluksiz olov purkash"
+      },
+      {
+        "name": "Fire Stake",
+        "effect": "Joylashtirilgan qoziqlarni orqaga tortish"
+      }
+    ]
+  },
+  {
+    "id": "ling",
+    "name": "Ling",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Tempest of Blades",
+    "specialty": "Devor bo‘ylab harakat",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Finch Poise",
+        "effect": "Devorga sakrab xarita bo‘ylab yurish"
+      },
+      {
+        "name": "Defiant Sword",
+        "effect": "Dash yoki devordan tushish orqali zarba"
+      }
+    ]
+  },
+  {
+    "id": "dyrroth",
+    "name": "Dyrroth",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Abysm Strike",
+    "specialty": "Physical defense kamaytirish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Burst Strike",
+        "effect": "Oldinga slowli zarba to‘lqini"
+      },
+      {
+        "name": "Spectre Step",
+        "effect": "Nishonga yaqinlashib himoyasini kamaytirish"
+      }
+    ]
+  },
+  {
+    "id": "lylia",
+    "name": "Lylia",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Black Shoes",
+    "specialty": "Oldingi holatga qaytish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Magic Shockwave",
+        "effect": "Oldinga magic to‘lqin yuborish"
+      },
+      {
+        "name": "Shadow Energy",
+        "effect": "Gloom portlatadigan energiya nuqtalarini qo‘yish"
+      }
+    ]
+  },
+  {
+    "id": "baxia",
+    "name": "Baxia",
+    "role": "Tank",
+    "lane": "Jungle",
+    "ultimate": "Tortoise's Puissance",
+    "specialty": "Tiklanishga qarshi bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Baxia-Shield Unity",
+        "effect": "Qalqon shaklida yumalab harakatlanish"
+      },
+      {
+        "name": "Shield of Spirit",
+        "effect": "Nishonga qalqon snaryadi otish"
+      }
+    ]
+  },
+  {
+    "id": "masha",
+    "name": "Masha",
+    "role": "Fighter/Tank",
+    "lane": "EXP",
+    "ultimate": "Thunderclap",
+    "specialty": "Nishonga yaqin bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Wild Power",
+        "effect": "Basic attackni kuchaytiruvchi holat"
+      },
+      {
+        "name": "Howl Shock",
+        "effect": "Oldinga ovoz to‘lqini bilan nishonga ta’sir qilish"
+      }
+    ]
+  },
+  {
+    "id": "wanwan",
+    "name": "Wanwan",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Crossbow of Tang",
+    "specialty": "Zaif nuqtalarni ochish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Swallow’s Path",
+        "effect": "Qaytuvchi pichoqlar orqali nishonni tekshirish"
+      },
+      {
+        "name": "Needles in Flowers",
+        "effect": "O‘zidan nazoratni olib tashlash"
+      }
+    ]
+  },
+  {
+    "id": "silvanna",
+    "name": "Silvanna",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Imperial Justice",
+    "specialty": "Nishonni duel hududida ushlash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Cometic Lance",
+        "effect": "Oldinga nayza bilan nazoratli zarba"
+      },
+      {
+        "name": "Spiral Strangling",
+        "effect": "Nayzani aylantirib nishonni hududda ushlash"
+      }
+    ]
+  },
+  {
+    "id": "cecilion",
+    "name": "Cecilion",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Bats Feast",
+    "specialty": "Stack bilan kuchayish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Bat Impact",
+        "effect": "Oldindagi masofali hududga zarba"
+      },
+      {
+        "name": "Sanguine Claws",
+        "effect": "Ikki tomondagi panjalarni birlashtirib tortish"
+      }
+    ]
+  },
+  {
+    "id": "carmilla",
+    "name": "Carmilla",
+    "role": "Support/Tank",
+    "lane": "Roam",
+    "ultimate": "Curse of Blood",
+    "specialty": "Raqiblarni bir-biriga bog‘lash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Crimson Flower",
+        "effect": "Atrofida aylanadigan gullar orqali tiklanish"
+      },
+      {
+        "name": "Bloodbath",
+        "effect": "Tezlik yig‘ib nishonga stun berish"
+      }
+    ]
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "role": "Tank",
+    "lane": "Roam",
+    "ultimate": "Fatal Links",
+    "specialty": "Guruhni bir nuqtaga tortish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Annihilate",
+        "effect": "Atrofdagi yerga magic zarba"
+      },
+      {
+        "name": "Perfect Match",
+        "effect": "Mecha’dan ajralib qayta birlashishda nazorat"
+      }
+    ]
+  },
+  {
+    "id": "popol-and-kupa",
+    "name": "Popol and Kupa",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "We Are Angry!",
+    "specialty": "Sherik bo‘ri va traplar",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Bite ’em, Kupa!",
+        "effect": "Kupa’ni nishonga hujumga yuborish"
+      },
+      {
+        "name": "Kupa, Help!",
+        "effect": "Kupa’ni himoya uchun qaytarish"
+      }
+    ]
+  },
+  {
+    "id": "yu-zhong",
+    "name": "Yu Zhong",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Black Dragon Form",
+    "specialty": "Orqa safga kiruvchi ajdarho",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Dragon Tail",
+        "effect": "Aylanma zarbaning cheti bilan bosim"
+      },
+      {
+        "name": "Soul Grip",
+        "effect": "Oldinga tutuvchi zarba bilan keyingi hujumni tayyorlash"
+      }
+    ]
+  },
+  {
+    "id": "luo-yi",
+    "name": "Luo Yi",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Diversion",
+    "specialty": "Teleport va Yin-Yang nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Dispersion",
+        "effect": "Nishonlarga Yin yoki Yang belgisi berish"
+      },
+      {
+        "name": "Rotation",
+        "effect": "Qarama-qarshi belgili hudud yaratish"
+      }
+    ]
+  },
+  {
+    "id": "benedetta",
+    "name": "Benedetta",
+    "role": "Assassin/Fighter",
+    "lane": "EXP",
+    "ultimate": "Alecto: Final Blow",
+    "specialty": "Charged dash va harakat",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Phantom Slash",
+        "effect": "Orqaga chekinib oldingi hududni kesish"
+      },
+      {
+        "name": "An Eye for an Eye",
+        "effect": "Vaqtli himoya va qarshi dash"
+      }
+    ]
+  },
+  {
+    "id": "khaleed",
+    "name": "Khaleed",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Raging Sandstorm",
+    "specialty": "Tez rotatsiya va sustain",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Desert Tornado",
+        "effect": "Ketma-ket aylanma qum zarbalari"
+      },
+      {
+        "name": "Quicksand Guard",
+        "effect": "Joyida HP tiklashga kirish"
+      }
+    ]
+  },
+  {
+    "id": "barats",
+    "name": "Barats",
+    "role": "Tank/Fighter",
+    "lane": "Jungle",
+    "ultimate": "Detona's Welcome",
+    "specialty": "Nishonni yutib nazorat qilish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "So-Called Teamwork",
+        "effect": "Oldingi hududga yopishqoq zarar"
+      },
+      {
+        "name": "Missile Expert",
+        "effect": "Raketalarning portlashi bilan raqibni surish"
+      }
+    ]
+  },
+  {
+    "id": "brody",
+    "name": "Brody",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Torn-Apart Memory",
+    "specialty": "Belgilar va kuchli yakunlash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Abyss Impact",
+        "effect": "Oldinga chiziqli zarba va belgi"
+      },
+      {
+        "name": "Corrosive Strike",
+        "effect": "Nishonga dash qilib stun berish"
+      }
+    ]
+  },
+  {
+    "id": "yve",
+    "name": "Yve",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Real World Manipulation",
+    "specialty": "Katta hududni boshqarish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Void Blast",
+        "effect": "Tanlangan hududga portlash"
+      },
+      {
+        "name": "Void Crystal",
+        "effect": "Crystal orqali zararli yo‘lakni yo‘naltirish"
+      }
+    ]
+  },
+  {
+    "id": "paquito",
+    "name": "Paquito",
+    "role": "Fighter/Assassin",
+    "lane": "EXP",
+    "ultimate": "Knockout Strike",
+    "specialty": "Skill combo va tez bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Heavy Left Punch",
+        "effect": "Musht zarbasi bilan qalqon olish"
+      },
+      {
+        "name": "Jab",
+        "effect": "Oldinga tez musht dash"
+      }
+    ]
+  },
+  {
+    "id": "gloo",
+    "name": "Gloo",
+    "role": "Tank",
+    "lane": "EXP",
+    "ultimate": "Split, Split",
+    "specialty": "Nishonga yopishish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Slam, Slam",
+        "effect": "Oldinga yopishqoq zarba nuqtasi qo‘yish"
+      },
+      {
+        "name": "Pass, Pass",
+        "effect": "Oldinga cho‘zilib nishonlarni nazorat qilish"
+      }
+    ]
+  },
+  {
+    "id": "beatrix",
+    "name": "Beatrix",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Qurolga bog‘liq ultimatlar",
+    "specialty": "To‘rt qurol bilan moslashish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Masterful Gunner",
+        "effect": "Qurol to‘plamini almashtirish"
+      },
+      {
+        "name": "Tactical Reposition",
+        "effect": "Dash qilib qurolni qayta zaryadlash"
+      }
+    ]
+  },
+  {
+    "id": "phoveus",
+    "name": "Phoveus",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Infernal Pursuit",
+    "specialty": "Yaqin jang va ketma-ket bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "passive": "Demonic Force",
+    "skills": [
+      "Demonic Impact",
+      "Dark Wave",
+      "Infernal Pursuit"
+    ],
+    "combo": "Belgili nishonlarga bosim bering. Uzoq jangda masofani yo‘qotmang.",
+    "strengths": "Yaqin jang, sustain va davomli bosim.",
+    "weaknesses": "Uzoqdan kite va anti-heal.",
+    "spell": "Vengeance",
+    "emblem": "Fighter",
+    "counters": [
+      "valir",
+      "karrie",
+      "baxia"
+    ],
+    "allies": [
+      "rafaela",
+      "angela",
+      "atlas"
+    ],
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Demonic Impact",
+        "effect": "Oldinga kuchli zarba bilan bosim"
+      },
+      {
+        "name": "Dark Wave",
+        "effect": "Oldinga to‘lqin bilan raqibni ko‘tarish"
+      }
+    ]
+  },
+  {
+    "id": "natan",
+    "name": "Natan",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Entropy?",
+    "specialty": "Magic basic attack",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Superposition",
+        "effect": "Oldinga teshib o‘tuvchi energiya zarbasi"
+      },
+      {
+        "name": "Interference!",
+        "effect": "Raqibni suradigan energiya kuchi"
+      }
+    ]
+  },
+  {
+    "id": "aulus",
+    "name": "Aulus",
+    "role": "Fighter",
+    "lane": "Jungle",
+    "ultimate": "Undying Fury",
+    "specialty": "Daraja oshganda kuchayish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Aulus, Charge!",
+        "effect": "Tez harakat va yo‘nalgan himoya"
+      },
+      {
+        "name": "The Power of Axe",
+        "effect": "Bolta zarbasi bilan keyingi hujumlarni tayyorlash"
+      }
+    ]
+  },
+  {
+    "id": "aamon",
+    "name": "Aamon",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Endless Shards",
+    "specialty": "Kamuflyaj va magic burst",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": "/assets/aamon.png",
+    "passive": "Invisible Armor",
+    "skills": [
+      "Soul Shards",
+      "Slayer Shards",
+      "Endless Shards"
+    ],
+    "combo": "Shardlarni yig‘ing, nishonning muhim himoya skillini kuting, yaqinlashib ultimate bilan yakunlang.",
+    "strengths": "Yumshoq nishonga magic burst; kamuflyaj orqali kirish.",
+    "weaknesses": "Keng maydonli zarar va vaqtida ishlatilgan himoya burstni to‘xtatadi.",
+    "spell": "Retribution",
+    "emblem": "Assassin",
+    "counters": [
+      "eudora",
+      "kaja",
+      "franco"
+    ],
+    "allies": [
+      "tigreal",
+      "atlas",
+      "angela"
+    ],
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Soul Shards",
+        "effect": "Yig‘ilgan shardlar bilan nishonga zarba"
+      },
+      {
+        "name": "Slayer Shards",
+        "effect": "Shard yuborib qaytish orqali kamuflyajga kirish"
+      }
+    ]
+  },
+  {
+    "id": "floryn",
+    "name": "Floryn",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "Bloom",
+    "specialty": "Xarita bo‘ylab heal",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Sow",
+        "effect": "Nishonga zarba berib ittifoqchiga heal yetkazish"
+      },
+      {
+        "name": "Sprout",
+        "effect": "Oldinga energiya bilan stun berish"
+      }
+    ]
+  },
+  {
+    "id": "valentina",
+    "name": "Valentina",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "I Am You",
+    "specialty": "Raqib ultimate’ini nusxalash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "passive": "Primal Force",
+    "skills": [
+      "Shadow Strike",
+      "Arcane Shade",
+      "I Am You"
+    ],
+    "combo": "Jamoaviy jangga mos raqib ultimate’ini tanlang.",
+    "strengths": "Dushman draftidagi kuchli ultimate’lardan foydalanadi.",
+    "weaknesses": "Nusxalash uchun foydali nishon bo‘lmagan draftda qiymati pasayadi.",
+    "spell": "Flicker",
+    "emblem": "Mage",
+    "counters": [
+      "kaja",
+      "saber",
+      "franco"
+    ],
+    "allies": [
+      "atlas",
+      "tigreal",
+      "fredrinn"
+    ],
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Shadow Strike",
+        "effect": "Konussimon zarba va takroriy nazorat"
+      },
+      {
+        "name": "Arcane Shade",
+        "effect": "Dash bilan soyali zarbalar chiqarish"
+      }
+    ]
+  },
+  {
+    "id": "edith",
+    "name": "Edith",
+    "role": "Tank/Marksman",
+    "lane": "EXP",
+    "ultimate": "Primal Wrath",
+    "specialty": "Tank va masofali shakl",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 4,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Earth Shatter",
+        "effect": "Phylax shaklida kechikkan knock-up"
+      },
+      {
+        "name": "Onward",
+        "effect": "Phylax dash bilan nishonni orqaga uloqtirish"
+      }
+    ]
+  },
+  {
+    "id": "yin",
+    "name": "Yin",
+    "role": "Fighter/Assassin",
+    "lane": "Jungle",
+    "ultimate": "My Turn",
+    "specialty": "Alohida duel hududi",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Charged Punch",
+        "effect": "Keyingi basic attackdan kuchli musht zarbasi"
+      },
+      {
+        "name": "Instant Blast",
+        "effect": "Oldinga dash va orqadan qaytuvchi stun"
+      }
+    ]
+  },
+  {
+    "id": "melissa",
+    "name": "Melissa",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Go Away!",
+    "specialty": "Qo‘g‘irchoq va himoya hududi",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Falling!",
+        "effect": "Dash bilan basic attack tezligini kuchaytirish"
+      },
+      {
+        "name": "Eyes on You!",
+        "effect": "Qo‘g‘irchoq orqali raqiblarni bog‘lash"
+      }
+    ]
+  },
+  {
+    "id": "xavier",
+    "name": "Xavier",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Dawning Light",
+    "specialty": "Xarita bo‘ylab magic zarba",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Infinite Extension",
+        "effect": "Oldinga teshib o‘tuvchi magic zarba"
+      },
+      {
+        "name": "Mystic Field",
+        "effect": "Chiziqli maydon orqali ittifoqchi va raqibga turli ta’sir"
+      }
+    ]
+  },
+  {
+    "id": "julian",
+    "name": "Julian",
+    "role": "Fighter/Mage",
+    "lane": "Jungle",
+    "ultimate": "Alohida ultimate yo‘q",
+    "specialty": "Kuchaytirilgan uchinchi skill",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Scythe",
+        "effect": "Oldinga o‘roq projectile chiqarish"
+      },
+      {
+        "name": "Sword",
+        "effect": "Qilich orqali oldinga dash"
+      }
+    ]
+  },
+  {
+    "id": "fredrinn",
+    "name": "Fredrinn",
+    "role": "Fighter/Tank",
+    "lane": "Jungle",
+    "ultimate": "Appraiser's Wrath",
+    "specialty": "Yig‘ilgan zarar va sustain",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": "/assets/fredrinn.png",
+    "passive": "Crystalline Armor",
+    "skills": [
+      "Piercing Strike",
+      "Brave Assault",
+      "Energy Eruption",
+      "Appraiser’s Wrath"
+    ],
+    "combo": "Skilllarni bog‘lab combo nuqtalarini boshqaring. Ultimate uchun dushmanni markazda tuting.",
+    "strengths": "Frontline, taunt va uzoq jang.",
+    "weaknesses": "Kite, tiklanishni kamaytirish va foizli zarar.",
+    "spell": "Retribution",
+    "emblem": "Tank",
+    "counters": [
+      "karrie",
+      "valir",
+      "baxia"
+    ],
+    "allies": [
+      "angela",
+      "xavier",
+      "claude"
+    ],
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Piercing Strike",
+        "effect": "Oldinga qilich sanchib keyingi hujumni kuchaytirish"
+      },
+      {
+        "name": "Brave Assault",
+        "effect": "Dashdan keyin basic attack orqali knock-up"
+      }
+    ]
+  },
+  {
+    "id": "joy",
+    "name": "Joy",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Ha, Electrifying Beats!",
+    "specialty": "Ritmga mos dash",
+    "difficulty": "Hard",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Look, Crystals!",
+        "effect": "Nishon joyga crystal qo‘yish"
+      },
+      {
+        "name": "Meow, Rhythm of Joy!",
+        "effect": "Ritm bo‘yicha takroriy dash"
+      }
+    ]
+  },
+  {
+    "id": "novaria",
+    "name": "Novaria",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Astral Echo",
+    "specialty": "Uzoq poke va ko‘rish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Astral Meteor",
+        "effect": "Tanlangan joyga meteor yog‘dirish"
+      },
+      {
+        "name": "Astral Recall",
+        "effect": "Masofa bilan kuchayadigan sharni yuborish"
+      }
+    ]
+  },
+  {
+    "id": "arlott",
+    "name": "Arlott",
+    "role": "Fighter/Assassin",
+    "lane": "EXP",
+    "ultimate": "Final Slash",
+    "specialty": "Belgili nishonlar va dash",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Dauntless Strike",
+        "effect": "Oldinga zarba orqali nazorat berish"
+      },
+      {
+        "name": "Vengeance",
+        "effect": "Belgili nishonga dash qilib reset olish"
+      }
+    ]
+  },
+  {
+    "id": "ixia",
+    "name": "Ixia",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "Full Barrage",
+    "specialty": "Bir yo‘nalishda katta hudud zarari",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Dual Beam",
+        "effect": "Ikki chiziqli nurni oldinga otish"
+      },
+      {
+        "name": "Star Helix",
+        "effect": "Oldidagi nishonlarni ko‘chirish va to‘plash"
+      }
+    ]
+  },
+  {
+    "id": "nolan",
+    "name": "Nolan",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "Fracture",
+    "specialty": "Riftlar va tez rotatsiya",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Expansion",
+        "effect": "Oldinga yoriq hosil qiluvchi zarba"
+      },
+      {
+        "name": "Gauge",
+        "effect": "Qisqa dash orqali yoriq qo‘yish"
+      }
+    ]
+  },
+  {
+    "id": "cici",
+    "name": "Cici",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Curtain Call",
+    "specialty": "Harakatda yo-yo zarbalari",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Yo-Yo Blitz",
+        "effect": "Harakatda nishonga yo-yo zarbalari"
+      },
+      {
+        "name": "Buoyant Bounce",
+        "effect": "Sakrab pozitsiya almashtirish"
+      }
+    ]
+  },
+  {
+    "id": "chip",
+    "name": "Chip",
+    "role": "Support/Tank",
+    "lane": "Roam",
+    "ultimate": "Shortcut",
+    "specialty": "Jamoa uchun portal",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 4,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Crash Course",
+        "effect": "Yaqin nishonlarga hovercraft bilan zarba"
+      },
+      {
+        "name": "Overtime",
+        "effect": "Tez harakat va keyingi hujum bilan nazorat"
+      }
+    ]
+  },
+  {
+    "id": "zhuxin",
+    "name": "Zhuxin",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "Crimson Beacon",
+    "specialty": "Ko‘tarish va hudud nazorati",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Fluttering Grace",
+        "effect": "Oldingi hududga slow beruvchi magic zarba"
+      },
+      {
+        "name": "Lantern Flare",
+        "effect": "Lantern hududi bilan stack yig‘ib nishonni ko‘tarish"
+      }
+    ]
+  },
+  {
+    "id": "suyou",
+    "name": "Suyou",
+    "role": "Assassin/Fighter",
+    "lane": "Jungle",
+    "ultimate": "Uch skill rejimi",
+    "specialty": "Bosish va ushlab turish rejimlari",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Blade Surge",
+        "effect": "Bosish yoki ushlab turishga qarab yaqinlashish"
+      },
+      {
+        "name": "Soul Sever",
+        "effect": "Bosish yoki ushlab turishga qarab zarbani o‘zgartirish"
+      }
+    ]
+  },
+  {
+    "id": "lukas",
+    "name": "Lukas",
+    "role": "Fighter",
+    "lane": "EXP",
+    "ultimate": "Unleash the Beast",
+    "specialty": "Sacred Beast shakli",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Flash Combo",
+        "effect": "Yig‘ilgan resursga qarab kuchayuvchi combo"
+      },
+      {
+        "name": "Flash Step",
+        "effect": "Dashdan keyin kuchli hujum tayyorlash"
+      }
+    ]
+  },
+  {
+    "id": "kalea",
+    "name": "Kalea",
+    "role": "Support/Fighter",
+    "lane": "Roam",
+    "ultimate": "Tsunami Slam",
+    "specialty": "Heal va nishonni ko‘chirish",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 4,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas.",
+    "activeSkills": [
+      {
+        "name": "Wavebreaker",
+        "effect": "Oldingi yo‘nalishda suv zarbasi"
+      },
+      {
+        "name": "Tidal Strike",
+        "effect": "Sakrash va zarba orqali pozitsiya olish"
+      }
+    ]
+  },
+  {
+    "id": "zetian",
+    "name": "Zetian",
+    "role": "Mage",
+    "lane": "Mid",
+    "ultimate": "",
+    "specialty": "Global bosim",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Magic",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 4,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas."
+  },
+  {
+    "id": "obsidia",
+    "name": "Obsidia",
+    "role": "Marksman",
+    "lane": "Gold",
+    "ultimate": "",
+    "specialty": "Hero ma’lumoti yangilanishi kerak",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 4,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas."
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "role": "Fighter/Assassin",
+    "lane": "EXP",
+    "ultimate": "",
+    "specialty": "Hero ma’lumoti yangilanishi kerak",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 4,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas."
+  },
+  {
+    "id": "marcel",
+    "name": "Marcel",
+    "role": "Support",
+    "lane": "Roam",
+    "ultimate": "",
+    "specialty": "Hero ma’lumoti yangilanishi kerak",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 2,
+      "sustain": 1,
+      "mobility": 2,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 2
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas."
+  },
+  {
+    "id": "hirara",
+    "name": "Hirara",
+    "role": "Assassin",
+    "lane": "Jungle",
+    "ultimate": "",
+    "specialty": "Hero ma’lumoti yangilanishi kerak",
+    "difficulty": "Medium",
+    "sourceUrl": "https://www.mobilelegends.com/",
+    "sourceName": "MLBB — o‘yinda qayta tekshiring",
+    "status": "editorial",
+    "patch": null,
+    "updatedAt": null,
+    "image": null,
+    "damage": "Physical",
+    "ratings": {
+      "burst": 4,
+      "sustain": 1,
+      "mobility": 4,
+      "cc": 2,
+      "early": 3,
+      "late": 3,
+      "teamfight": 3,
+      "duel": 4
+    },
+    "ratingsNote": "Rolga asoslangan taxminiy tavsif; match statistikasi emas."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "warrior-boots",
+    "name": "Warrior Boots",
+    "type": "Movement",
+    "effect": "Physical himoya"
+  },
+  {
+    "id": "tough-boots",
+    "name": "Tough Boots",
+    "type": "Movement",
+    "effect": "Magic himoya va nazorat davomiyligi"
+  },
+  {
+    "id": "arcane-boots",
+    "name": "Arcane Boots",
+    "type": "Movement",
+    "effect": "Magic penetration"
+  },
+  {
+    "id": "swift-boots",
+    "name": "Swift Boots",
+    "type": "Movement",
+    "effect": "Attack speed"
+  },
+  {
+    "id": "magic-shoes",
+    "name": "Magic Shoes",
+    "type": "Movement",
+    "effect": "Cooldown qisqartirish"
+  },
+  {
+    "id": "demon-shoes",
+    "name": "Demon Shoes",
+    "type": "Movement",
+    "effect": "Mana tiklash"
+  },
+  {
+    "id": "rapid-boots",
+    "name": "Rapid Boots",
+    "type": "Movement",
+    "effect": "Rotatsiya tezligi"
+  },
+  {
+    "id": "blade-of-despair",
+    "name": "Blade of Despair",
+    "type": "Physical",
+    "effect": "Yuqori physical attack"
+  },
+  {
+    "id": "berserker-s-fury",
+    "name": "Berserker’s Fury",
+    "type": "Physical",
+    "effect": "Kritik zarar"
+  },
+  {
+    "id": "windtalker",
+    "name": "Windtalker",
+    "type": "Physical",
+    "effect": "Hujum tezligi"
+  },
+  {
+    "id": "haas-s-claws",
+    "name": "Haas’s Claws",
+    "type": "Physical",
+    "effect": "Lifesteal"
+  },
+  {
+    "id": "malefic-roar",
+    "name": "Malefic Roar",
+    "type": "Physical",
+    "effect": "Physical penetration"
+  },
+  {
+    "id": "hunter-strike",
+    "name": "Hunter Strike",
+    "type": "Physical",
+    "effect": "Physical burst va harakat"
+  },
+  {
+    "id": "blade-of-the-heptaseas",
+    "name": "Blade of the Heptaseas",
+    "type": "Physical",
+    "effect": "Dastlabki zarba bosimi"
+  },
+  {
+    "id": "endless-battle",
+    "name": "Endless Battle",
+    "type": "Physical",
+    "effect": "Skilldan keyingi basic attack"
+  },
+  {
+    "id": "demon-hunter-sword",
+    "name": "Demon Hunter Sword",
+    "type": "Physical",
+    "effect": "HPga qarshi basic attack"
+  },
+  {
+    "id": "golden-staff",
+    "name": "Golden Staff",
+    "type": "Physical",
+    "effect": "On-hit sinergiya"
+  },
+  {
+    "id": "corrosion-scythe",
+    "name": "Corrosion Scythe",
+    "type": "Physical",
+    "effect": "Basic attack orqali slow"
+  },
+  {
+    "id": "sea-halberd",
+    "name": "Sea Halberd",
+    "type": "Physical",
+    "effect": "Tiklanishga qarshi"
+  },
+  {
+    "id": "wind-of-nature",
+    "name": "Wind of Nature",
+    "type": "Physical",
+    "effect": "Vaqtincha physical immunity"
+  },
+  {
+    "id": "rose-gold-meteor",
+    "name": "Rose Gold Meteor",
+    "type": "Physical",
+    "effect": "Himoya qalqoni"
+  },
+  {
+    "id": "great-dragon-spear",
+    "name": "Great Dragon Spear",
+    "type": "Physical",
+    "effect": "Ultimate bilan harakat"
+  },
+  {
+    "id": "war-axe",
+    "name": "War Axe",
+    "type": "Physical",
+    "effect": "Uzoq jang"
+  },
+  {
+    "id": "sky-piercer",
+    "name": "Sky Piercer",
+    "type": "Adaptive",
+    "effect": "Past HPli nishonni yakunlash"
+  },
+  {
+    "id": "holy-crystal",
+    "name": "Holy Crystal",
+    "type": "Magic",
+    "effect": "Magic power"
+  },
+  {
+    "id": "divine-glaive",
+    "name": "Divine Glaive",
+    "type": "Magic",
+    "effect": "Magic penetration"
+  },
+  {
+    "id": "genius-wand",
+    "name": "Genius Wand",
+    "type": "Magic",
+    "effect": "Magic defense kamaytirish"
+  },
+  {
+    "id": "glowing-wand",
+    "name": "Glowing Wand",
+    "type": "Magic",
+    "effect": "Davomiy zarar va tiklanishga qarshi"
+  },
+  {
+    "id": "ice-queen-wand",
+    "name": "Ice Queen Wand",
+    "type": "Magic",
+    "effect": "Skill orqali slow"
+  },
+  {
+    "id": "concentrated-energy",
+    "name": "Concentrated Energy",
+    "type": "Magic",
+    "effect": "Magic sustain"
+  },
+  {
+    "id": "feather-of-heaven",
+    "name": "Feather of Heaven",
+    "type": "Magic",
+    "effect": "Magic basic attack"
+  },
+  {
+    "id": "lightning-truncheon",
+    "name": "Lightning Truncheon",
+    "type": "Magic",
+    "effect": "Magic burst"
+  },
+  {
+    "id": "clock-of-destiny",
+    "name": "Clock of Destiny",
+    "type": "Magic",
+    "effect": "Magic jangchi uchun himoya"
+  },
+  {
+    "id": "enchanted-talisman",
+    "name": "Enchanted Talisman",
+    "type": "Magic",
+    "effect": "Mana va cooldown"
+  },
+  {
+    "id": "fleeting-time",
+    "name": "Fleeting Time",
+    "type": "Magic",
+    "effect": "Ultimate sikli"
+  },
+  {
+    "id": "winter-crown",
+    "name": "Winter Crown",
+    "type": "Adaptive",
+    "effect": "Vaqtincha muzlash himoyasi"
+  },
+  {
+    "id": "blood-wings",
+    "name": "Blood Wings",
+    "type": "Magic",
+    "effect": "Magic qalqon"
+  },
+  {
+    "id": "wishing-lantern",
+    "name": "Wishing Lantern",
+    "type": "Magic",
+    "effect": "HPga qarshi magic zarar"
+  },
+  {
+    "id": "athena-s-shield",
+    "name": "Athena’s Shield",
+    "type": "Defense",
+    "effect": "Magic burstga qarshi"
+  },
+  {
+    "id": "radiant-armor",
+    "name": "Radiant Armor",
+    "type": "Defense",
+    "effect": "Davomiy magic zararga qarshi"
+  },
+  {
+    "id": "antique-cuirass",
+    "name": "Antique Cuirass",
+    "type": "Defense",
+    "effect": "Physical skill zararga qarshi"
+  },
+  {
+    "id": "blade-armor",
+    "name": "Blade Armor",
+    "type": "Defense",
+    "effect": "Basic attackka qarshi"
+  },
+  {
+    "id": "dominance-ice",
+    "name": "Dominance Ice",
+    "type": "Defense",
+    "effect": "Tiklanish va hujum tezligiga qarshi"
+  },
+  {
+    "id": "immortality",
+    "name": "Immortality",
+    "type": "Defense",
+    "effect": "Qayta tirilish"
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "type": "Defense",
+    "effect": "Qalqon va tiklanishni kuchaytirish"
+  },
+  {
+    "id": "guardian-helmet",
+    "name": "Guardian Helmet",
+    "type": "Defense",
+    "effect": "Jangdan tashqari HP tiklash"
+  },
+  {
+    "id": "brute-force-breastplate",
+    "name": "Brute Force Breastplate",
+    "type": "Defense",
+    "effect": "Uzoq jangda himoya"
+  },
+  {
+    "id": "thunder-belt",
+    "name": "Thunder Belt",
+    "type": "Defense",
+    "effect": "Basic attack va slow"
+  },
+  {
+    "id": "queen-s-wings",
+    "name": "Queen’s Wings",
+    "type": "Defense",
+    "effect": "Past HPda omon qolish"
+  },
+  {
+    "id": "twilight-armor",
+    "name": "Twilight Armor",
+    "type": "Defense",
+    "effect": "Katta bir martalik zarbaga qarshi"
+  }
+]
