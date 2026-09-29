@@ -1,0 +1,8 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // All application access goes through authenticated, validated Netlify APIs.
+    // Admin SDK bypasses rules; never place its credential in browser code.
+    match /{document=**} { allow read, write: if false; }
+  }
+}

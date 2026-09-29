@@ -1,0 +1,21 @@
+{
+  "name": "nexus-mlbb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "npx netlify dev",
+    "deploy": "npx netlify deploy --build --prod",
+    "owner": "node scripts/set-owner.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.5.0",
+    "fast-xml-parser": "^5.2.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
