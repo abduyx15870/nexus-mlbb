@@ -1,5 +1,5 @@
 export const firebaseConfig = {
-  apiKey: "AIzaSyAzR8v_da562EhqJACAeImk2_ma0NaAoIU",
+  apiKey: "AIzaSyAzR8v_da562EhqJACAeImk2_maONaAoIU",
   authDomain: "nexus-mlbb.firebaseapp.com",
   projectId: "nexus-mlbb",
   storageBucket: "nexus-mlbb.firebasestorage.app",
