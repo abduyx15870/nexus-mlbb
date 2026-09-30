@@ -53,6 +53,7 @@ const services=()=>({db,auth:roleAuth,storage:{}});
 const injected={...dbExports,services,identity:async()=>currentUser,limited:async()=>{},notify:async(...args)=>notifications.push(args),audit:async(...args)=>audit.push(args),award:async()=>{}};
 async function synthetic(exports){const module=new vm.SyntheticModule(Object.keys(exports),function(){for(const [key,value]of Object.entries(exports))this.setExport(key,value)},{context:apiContext});await module.link(()=>{});await module.evaluate();return module}
 const links=new Map([
+ ['./lib/player-features.mjs',await synthetic(await import('../netlify/functions/lib/player-features.mjs'))],
  ['./lib/db.mjs',await synthetic(injected)],
  ['./lib/updater.mjs',await synthetic({createBuildAI:async()=>{},createMatchPrediction:async()=>{},askAI:async()=>{},aiConfigured:()=>true})],
  ['./lib/refresh-dispatch.mjs',await synthetic({queueRefresh:async()=>({queued:true})})],
