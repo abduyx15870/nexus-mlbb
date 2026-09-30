@@ -1,4 +1,4 @@
-const CACHE='nexus-v6';const STATIC=['/','/index.html','/style.css','/js/app.js','/js/core.js','/js/data.js','/js/equipment.js','/js/equipment-data.js','/js/player-features.js','/js/quiz-labels.js','/js/config.js','/js/auth.js','/js/views.js','/js/social.js','/js/quiz.js','/data/heroes.json','/data/items.json','/data/quiz-data.json','/assets/favicon.svg'];
+const CACHE='nexus-v7';const STATIC=['/','/index.html','/style.css','/js/app.js','/js/glossary.js','/js/glossary-data.js','/js/core.js','/js/data.js','/js/equipment.js','/js/equipment-data.js','/js/player-features.js','/js/quiz-labels.js','/js/config.js','/js/auth.js','/js/views.js','/js/social.js','/js/quiz.js','/data/heroes.json','/data/items.json','/data/quiz-data.json','/assets/favicon.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
