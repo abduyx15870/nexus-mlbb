@@ -1,7 +1,7 @@
 import {state} from './core.js';
 export const spells=['Retribution','Flicker','Purify','Vengeance','Aegis','Sprint','Inspire','Execute','Flameshot','Arrival','Petrify','Revitalize'];
 export const emblems=['Tank','Assassin','Fighter','Mage','Marksman','Support','Common'];
-export const talents=['Agility','Rupture','Vitality','Inspire','Firmness','Fatal','Thrill','Swift','Wilderness Blessing','Seasoned Hunter','Festival of Blood','Tenacity','Master Assassin','Bargain Hunter','Pull Yourself Together','Weapon Master','Brave Smite','Killing Spree','Lethal Ignition','Quantum Charge','War Cry','Focusing Mark','Impure Rage','Concussive Blast'];
+export const talents=['Agility','Rupture','Vitality','Inspire','Firmness','Fatal','Thrill','Swift','Wilderness Blessing','Seasoned Hunter','Festival of Blood','Tenacity','Master Assassin','Bargain Hunter','Pull Yourself Together','Weapon Master','Brave Smite','Killing Spree','Lethal Ignition','Quantum Charge','War Cry','Focusing Mark','Impure Rage','Concussive Blast','Temporal Reign'];
 export const ranks=['Unranked','Warrior','Elite','Master','Grandmaster','Epic','Legend','Mythic','Mythical Honor','Mythical Glory','Mythical Immortal'];
 export async function loadData(){const [h,i]=await Promise.all([fetch('/data/heroes.json').then(r=>r.json()),fetch('/data/items.json').then(r=>r.json())]);state.heroes=h;state.items=i}
 export const hero=id=>state.heroes.find(h=>h.id===id);

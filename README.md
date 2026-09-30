@@ -138,3 +138,11 @@ Deep navy `#0b0e17`, panel `#121724`, violet `#a596ff`, royal blue `#6085f4`, go
 Aamon/Fredrinn ikonlari publisher CDN’dan olingan; character artwork © MOONTON. NEXUS rasmiy loyiha emas. Alohida artwork litsenziyasi aniqlanmagan; commercial foydalanishda ruxsatni tekshiring yoki initials placeholder’larini ishlating. Qolgan hero tasvirlari taxminan yaratilmagan.
 
 Asset URLlari `ASSETS.md`da.
+
+
+## September 2026 update
+132 local hero portraits. Uzbek news titles and short summaries from MLBBDex, Esports.gg, and official MPL Malaysia news; previous automatic English news is migrated. AI builds are validated against the local item catalogue and cached for 7 days; eight heroes are prepared by the updater, and any catalogue hero can be generated from Builds. These are AI recommendations, not verified current competitive builds.
+
+Rasmiy o‘yinlar displays the rolling last 30 days plus next 7 days from the official MPL Philippines schedule, refreshed every six hours. Malaysia and Indonesia links open their official schedules; scores for these two leagues are not imported yet. This is not a live score feed or worldwide tournament coverage.
+
+Refresh uses a signed background function, an overlap lease, and run history. AI translation/build generation requires the existing server AI key. Failed translations remain queued for a later run. No secrets are included in the update archive.

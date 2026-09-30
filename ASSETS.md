@@ -1,9 +1,7 @@
 # Asset attribution
 
-Aamon icon: https://akmweb.youngjoygame.com/web/madmin/image/9d9bd7e99dcaad637c0c7b3280a84a31.png?w=150-150-f6fefd
+132 local hero portraits in public/assets/heroes were downloaded from the corresponding MLBBDex hero pages at https://mlbbdex.com/heroes and https://mlbbdex.com/visuels/heros/<slug>/portrait.webp. Character artwork belongs to MOONTON. Attribution does not grant a licence. No AI-generated hero likenesses are used.
 
-Fredrinn icon: https://akmweb.youngjoygame.com/web/madmin/image/5157d0f32d6032a079d4437d3320dfe1.png
+Meta statistics: MLBBDex public API, with source dates and its Mobile Legends Wiki CC BY-SA attribution retained in the site.
 
-Source mapping: https://gist.github.com/vsec7/73c6dedea092fca8e0a94d448000226c
-
-Character artwork © MOONTON. No express reuse licence found. Attribution is not a licence grant. Other portraits use text initials; no generated likenesses are passed off as official hero artwork.
+News links point to original sources; NEXUS displays independent short Uzbek AI summaries, not copies of full articles. Official match results are extracted from https://ph-mpl.com/schedule.

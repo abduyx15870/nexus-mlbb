@@ -12,7 +12,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/miya.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -49,7 +49,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/balmond.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -86,7 +86,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/saber.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -123,7 +123,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/alice.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -160,7 +160,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/nana.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -197,7 +197,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/tigreal.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -234,7 +234,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/alucard.webp",
     "passive": "Pursuit",
     "skills": [
       "Groundsplitter",
@@ -292,7 +292,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/karina.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -329,7 +329,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/akai.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -366,7 +366,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/franco.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -403,7 +403,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/bane.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -440,7 +440,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/bruno.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -477,7 +477,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/clint.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -514,7 +514,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/rafaela.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -551,7 +551,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/eudora.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -588,7 +588,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/zilong.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -625,7 +625,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/fanny.webp",
     "passive": "Air Superiority",
     "skills": [
       "Tornado Strike",
@@ -683,7 +683,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/layla.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -720,7 +720,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/minotaur.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -757,7 +757,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lolita.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -794,7 +794,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hayabusa.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -831,7 +831,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/freya.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -868,7 +868,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/gord.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -905,7 +905,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/natalia.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -942,7 +942,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/kagura.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -979,7 +979,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/chou.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1016,7 +1016,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/sun.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1053,7 +1053,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/alpha.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1090,7 +1090,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/ruby.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1127,7 +1127,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/yi-sun-shin.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -1164,7 +1164,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/moskov.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1201,7 +1201,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/johnson.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1238,7 +1238,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/cyclops.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1275,7 +1275,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/estes.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1312,7 +1312,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hilda.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1349,7 +1349,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/aurora.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1386,7 +1386,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lapu-lapu.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1423,7 +1423,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/vexana.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1460,7 +1460,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/roger.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1497,7 +1497,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/karrie.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1534,7 +1534,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/gatotkaca.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1571,7 +1571,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/harley.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -1608,7 +1608,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/irithel.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1645,7 +1645,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/grock.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1682,7 +1682,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/argus.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1719,7 +1719,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/odette.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1756,7 +1756,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lancelot.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -1793,7 +1793,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/diggie.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1830,7 +1830,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hylos.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -1867,7 +1867,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/zhask.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1904,7 +1904,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/helcurt.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -1941,7 +1941,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/pharsa.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -1978,7 +1978,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lesley.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -2015,7 +2015,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/jawhead.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2052,7 +2052,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/angela.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2089,7 +2089,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/gusion.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2126,7 +2126,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/valir.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2163,7 +2163,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/martis.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2200,7 +2200,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/uranus.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2237,7 +2237,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hanabi.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2274,7 +2274,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/chang-e.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2311,7 +2311,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/kaja.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2348,7 +2348,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/selena.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -2385,7 +2385,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/aldous.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2422,7 +2422,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/claude.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2459,7 +2459,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/vale.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2496,7 +2496,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/leomord.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2533,7 +2533,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lunox.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2570,7 +2570,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hanzo.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -2607,7 +2607,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/belerick.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2644,7 +2644,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/kimmy.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -2681,7 +2681,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/thamuz.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2718,7 +2718,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/harith.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2755,7 +2755,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/minsitthar.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2792,7 +2792,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/kadita.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -2829,7 +2829,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/faramis.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -2866,7 +2866,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/badang.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2903,7 +2903,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/khufra.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2940,7 +2940,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/granger.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -2977,7 +2977,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/guinevere.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3014,7 +3014,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/esmeralda.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -3051,7 +3051,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/terizla.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3088,7 +3088,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/x-borg.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3125,7 +3125,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/ling.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -3162,7 +3162,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/dyrroth.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3199,7 +3199,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lylia.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -3236,7 +3236,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/baxia.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3273,7 +3273,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/masha.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3310,7 +3310,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/wanwan.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3347,7 +3347,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/silvanna.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3384,7 +3384,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/cecilion.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -3421,7 +3421,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/carmilla.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3458,7 +3458,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/atlas.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3495,7 +3495,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/popol-and-kupa.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3532,7 +3532,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/yu-zhong.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3569,7 +3569,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/luo-yi.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -3606,7 +3606,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/benedetta.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -3643,7 +3643,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/khaleed.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3680,7 +3680,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/barats.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3717,7 +3717,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/brody.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3754,7 +3754,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/yve.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -3791,7 +3791,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/paquito.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -3828,7 +3828,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/gloo.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3865,7 +3865,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/beatrix.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -3902,7 +3902,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/phoveus.webp",
     "passive": "Demonic Force",
     "skills": [
       "Demonic Impact",
@@ -3960,7 +3960,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/natan.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 2,
@@ -3997,7 +3997,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/aulus.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4034,7 +4034,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": "/assets/aamon.png",
+    "image": "/assets/heroes/aamon.webp",
     "passive": "Invisible Armor",
     "skills": [
       "Soul Shards",
@@ -4092,7 +4092,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/floryn.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4129,7 +4129,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/valentina.webp",
     "passive": "Primal Force",
     "skills": [
       "Shadow Strike",
@@ -4187,7 +4187,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/edith.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4224,7 +4224,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/yin.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -4261,7 +4261,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/melissa.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4298,7 +4298,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/xavier.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4335,7 +4335,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/julian.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4372,7 +4372,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": "/assets/fredrinn.png",
+    "image": "/assets/heroes/fredrinn.webp",
     "passive": "Crystalline Armor",
     "skills": [
       "Piercing Strike",
@@ -4431,7 +4431,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/joy.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4468,7 +4468,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/novaria.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4505,7 +4505,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/arlott.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -4542,7 +4542,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/ixia.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4579,7 +4579,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/nolan.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -4616,7 +4616,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/cici.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4653,7 +4653,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/chip.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4690,7 +4690,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/zhuxin.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4727,7 +4727,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/suyou.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -4764,7 +4764,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/lukas.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4801,7 +4801,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/kalea.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4838,7 +4838,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/zetian.webp",
     "damage": "Magic",
     "ratings": {
       "burst": 4,
@@ -4865,7 +4865,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/obsidia.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4892,7 +4892,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/sora.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
@@ -4919,7 +4919,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/marcel.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 2,
@@ -4946,7 +4946,7 @@
     "status": "editorial",
     "patch": null,
     "updatedAt": null,
-    "image": null,
+    "image": "/assets/heroes/hirara.webp",
     "damage": "Physical",
     "ratings": {
       "burst": 4,
