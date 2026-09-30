@@ -5,4 +5,4 @@ node_modules/
 .netlify/
 *.log
 service-account*.json
-/nexus-owner-key.json
+*owner-key*.json

@@ -1,6 +1,6 @@
 # NEXUS — MLBB Intelligence Hub
 
-**Bu Netlify + Firebase uchun manba-kod paketi. Hali jonli saytga joylanmagan.**
+**Bu Netlify + Firebase uchun manba-kod paketi.** Jonli yangilanish faqat ushbu versiya GitHub orqali Netlify production deployga chiqqach boshlanadi.
 
 Foydalanuvchi bergan `nexus-mlbb` Firebase Web config ulangan. Maxfiy server credentiali yoki AI kaliti paketga kiritilmagan.
 
@@ -12,7 +12,7 @@ Foydalanuvchi bergan `nexus-mlbb` Firebase Web config ulangan. Maxfiy server cre
 4. Firebase Console → Authentication → Sign-in method → **Email/Password**ni yoqing. Authentication → Settings → Authorized domains ichiga Netlify domenini qo‘shing.
 5. Firebase’da Firestore va rasm yuklash uchun Storage’ni ishga tushiring. `firestore.rules` va `storage.rules` fayllarini tegishli Rules oynalarida publish qiling. Bu ilovada barcha ma’lumot operatsiyalari server orqali bajariladi, shu sababli brauzerdan to‘g‘ridan-to‘g‘ri yozish yopiq.
 6. Firebase Project settings → Service accounts orqali server service-account JSON yarating. Uni **faqat Netlify Environment variables** ichidagi `FIREBASE_SERVICE_ACCOUNT`ga JSON matni sifatida joylang (Functions scope). Chatga, GitHub’ga yoki `public/`ga yubormang.
-7. NEXUS AI uchun Netlify’da `OPENAI_API_KEY` va hisobingizda mavjud modelning aniq nomini `OPENAI_MODEL`ga kiriting. Model nomi taxminan tanlanmagan. Masalan, OpenAI hisobingizda foydalanishga ruxsat berilgan chat-completions modeli bo‘lishi kerak.
+7. NEXUS AI uchun Netlify Environment variables (Functions) bo‘limiga `GEMINI_API_KEY`ni kiriting va qayta deploy qiling. Odatiy model `gemini-2.5-flash`; xohlasangiz `GEMINI_MODEL` bilan almashtiring. Oldingi `OPENAI_API_KEY` + `OPENAI_MODEL` varianti ham ishlaydi. Ikkalasi bo‘lsa Gemini tanlanadi. Kalitni GitHub yoki `public` ichiga joylamang.
 8. Muhit qiymatlari kiritilgach Netlify’da qayta deploy qiling.
 9. Saytda hisob oching. Firebase Authentication’dagi o‘z UID’ingizni oling. Ishonchli lokal terminalda server credentialini muhitga o‘rnatib `npm run owner -- YOUR_UID`ni bajaring. Qayta kirganda Admin ko‘rinadi. Sayt emailga qarab o‘z-o‘zidan admin bermaydi.
 10. Xuddi shu ishonchli terminaldan `npm run seed`ni bajaring: hero, quiz, manba va challenge boshlang‘ich yozuvlari Firestore’ga qo‘shiladi. Mavjud yozuvlar almashtirilmaydi. Crew a’zolarini Admin → Crew’dan o‘zingizning haqiqiy ma’lumotingiz bilan kiriting.
@@ -47,7 +47,9 @@ Bu bo‘lim foydalanuvchi talabidagi “hammasi production’da ishlaydi” bila
 - **Jonli integratsiya sinovi bajarilmagan.** Netlify hisobiga kirish, Firebase server credentiali, AI kaliti va model berilmagan. Auth, Firestore, Storage, haqiqiy email, AI va cron ishlab turgan deb da’vo qilinmaydi.
 - **Katalog to‘liq current database emas.** 132 editorial hero yozuvi bor. Barcha joriy herolar, yangi hero/revamp ma’lumotlari, passivlar, chuqur combo/counterlar va item qiymatlari to‘liq manba bilan audit qilinmagan. Hero qo‘llanmalarida bu cheklov ko‘rsatilgan.
 - **Quiz texnik tekshirilgan, lekin 1000 savolning ekspert kontent auditi tugallanmagan.** Exact duplicate yo‘q; semantik yaqinlik, qiyinlik darajasi, variantlarning sifati va patch bo‘yicha to‘g‘rilikni Quiz Manager ko‘rib chiqishi kerak. Savollar orasida takrorlanuvchi shakldagi alohida hero-faktlar bor. Bu 1000 savolni “to‘liq ekspert tekshiruvidan o‘tgan” deb atamang.
-- **Joriy meta va avtomatik build ma’lumot manbasi hali ulangan emas.** Meta/build updater faqat kerakli schema’dagi ishonchli JSON feedni qabul qiladi. Standart official news sahifasi dinamik bo‘lsa, maqola/sana topilmasligi mumkin; bunda logda `no-new-data` ko‘rinadi. Qonuniy ishlaydigan feed va adapter tekshirilishi kerak. AI statistikani o‘zi yaratmaydi.
+- **Avtomatik news va patch:** MLBBDex RSS manbasi 6 soatda tekshiriladi; sana, qisqa parcha va original havola saqlanadi. Bu mustaqil fan manbasi, Moontonning rasmiy tasdig‘i emas. RSS’da kelmagan rasmiy patch yoki tadbir avtomatik topilmaydi. Eski `Official Mobile Legends` dinamik HTML manbasi avtomatik ishga tushirilmaydi.
+- **Meta:** MLBBDex public rankings API tekshiriladi; faqat yaqin 21 kunlik o‘lchangan foizlar e’lon qilinadi. Manba patch versiyasini bermasa sayt “Patch ko‘rsatilmagan” deydi. API’ning data.heroes va data.measuredAt shakli haqiqiy javob bilan tekshirildi. Production Firestore sinovi deploydan keyin bajariladi. AI statistikani o‘zi yaratmaydi.
+- **Build:** tasdiqlangan 6 item/emblem/spell feed ulanmadi. Buildlar avtomatik chiqmaydi; admin yoki community yozuvlari qoladi.
 - **Auto-build AI generator yo‘q.** Bu paketdagi build updater tekshirilgan structured feedni yangilaydi; AI esa chatda tavsiya beradi. AI patchdan o‘z-o‘zidan yangi 6-item buildlar yaratib publish qilmaydi.
 - **Hero comparison ballari rolga asoslangan taxminiy ko‘rsatkich**, o‘lchangan match statistikasi emas. Counter tizimi ham kichik editorial qoida bazasiga tayanadi.
 - **Daily Quiz mehmon mashqi sifatida ishlaydi**, hisobdagi leaderboard/XPga yozilmaydi. Oddiy hisob bilan boshlangan quizlar saqlanadi.
@@ -64,6 +66,10 @@ Bu bo‘lim foydalanuvchi talabidagi “hammasi production’da ishlaydi” bila
 Shaxsiy collection yozuvlari `ownerId` bilan bog‘langan. Ommaviy profile javoblari email, MLBB ID, hero pool yoki chatni chiqarmaydi. Role faqat Firebase custom claims’dan olinadi. Admin SDK credentiali brauzerga berilmaydi.
 
 `rateLimits.expiresAt` uchun Firestore TTL policy qo‘yish tavsiya etiladi; aks holda ishlatilgan bucket yozuvlari yig‘ilib boradi. So‘rovlar kerak qilsa, Firebase bergan indeks havolasi bilan kerakli compound indeksni yarating.
+
+## Auto-updater va tekshirish
+
+Ushbu kodni GitHub repoga qo‘yib Netlify production deploy qilgandan so‘ng Admin → AI Data → Run Now bilan bir marta sinang. `sourcesChecked`, `added`, `errors` va News/Patches/Meta sahifasini tekshiring. Netlify Functions sahifasida `refresh` Scheduled sifatida ko‘rinishi kerak. Jadval UTC bo‘yicha `0 */6 * * *`; Netlify scheduled function limiti 30 soniya. `Official Mobile Legends` eski source yozuvini Admin → Sources’dan o‘chirishingiz yoki o‘chirib qo‘yishingiz mumkin. RSS yoki API ishlamay qolsa, run log sababni ko‘rsatadi.
 
 ## Auto-updater schema
 
