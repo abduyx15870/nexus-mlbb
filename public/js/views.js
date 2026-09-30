@@ -1,4 +1,4 @@
-import {itemIcon,itemStrip,itemPicker,emblemMenu,passiveSection,talentMenu} from './equipment.js';
+import {itemIcon,itemStrip,itemPicker,emblemMenu,passiveSection,talentMenu,equipmentGuide} from './equipment.js';
 import {state,$,$$,esc,date,avatar,heroCard,heading,empty,modal,closeModal,bindForm,toast,api,collection,mountCollection,heroSelect,roles,lanes,optionList,field,selectField,gate,requireUser,source,safeUrl,share,shuffle,progress,compressImage,busy} from './core.js';
 import {hero,itemName,spells,emblems,talents,ranks,analyzeTeam,counterSuggestions,counterReason,counterExplanation} from './data.js';
 import {logout,verifyEmail,refreshClaims} from './auth.js';
@@ -73,3 +73,5 @@ export function officialMatches(){
   return draw();
  },{limit:200});
 }
+
+export function guide(){$('#main').innerHTML=heading('Buyumlar va emblemlar','O‘zbekcha nom ma’nolari, vazifalar va tanlash sabablari.')+equipmentGuide()}

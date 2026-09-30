@@ -1,2 +1,2 @@
 import {spawnSync} from 'node:child_process';
-const check=spawnSync(process.execPath,['scripts/check.mjs'],{stdio:'inherit'});if(check.status!==0)process.exit(check.status||1);console.log('NEXUS static frontend and Netlify Functions ready.');
+for(const file of ['scripts/generate-seo.mjs','scripts/check.mjs']){const result=spawnSync(process.execPath,[file],{stdio:'inherit'});if(result.status!==0)process.exit(result.status||1)}console.log('NEXUS static frontend and Netlify Functions ready.');

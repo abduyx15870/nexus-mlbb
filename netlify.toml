@@ -8,6 +8,22 @@
 [functions."refresh"]
   schedule = "0 */6 * * *"
 [[redirects]]
+  from = "/sitemap.xml"
+  to = "/.netlify/functions/seo?path=/sitemap.xml"
+  status = 200
+[[redirects]]
+  from = "/guide/build/*"
+  to = "/.netlify/functions/seo?path=/guide/build/:splat"
+  status = 200
+[[redirects]]
+  from = "/guide/builds/*"
+  to = "/.netlify/functions/seo?path=/guide/builds/:splat"
+  status = 200
+[[redirects]]
+  from = "/guide/news/*"
+  to = "/.netlify/functions/seo?path=/guide/news/:splat"
+  status = 200
+[[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/api/:splat"
   status = 200

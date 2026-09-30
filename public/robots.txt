@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.netlify/
+Sitemap: https://nexus-mlbb.netlify.app/sitemap.xml
