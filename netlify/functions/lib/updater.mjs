@@ -4,6 +4,7 @@ import {services,HttpError,now} from './db.mjs';
 import {refreshCommunityMeta} from './community-updater.mjs';
 import {collectNews,publishUzbekNews} from './news-updater.mjs';
 import {generateBuild,warmBuilds} from './build-generator.mjs';
+import {predictMatch,refreshPredictions} from './match-predictions.mjs';
 import {refreshEsports} from './esports-updater.mjs';
 const HOSTS=new Set(['www.mobilelegends.com','mobilelegends.com','my.mpl.mobilelegends.com','ph-mpl.com','id-mpl.com','www.oneesports.gg','www.esports.gg','esports.gg','mlbbdex.com']);
 export function safeLink(value,base){try{const u=new URL(value,base);return u.protocol==='https:'&&HOSTS.has(u.hostname)?u.href:null}catch{return null}}
@@ -19,6 +20,7 @@ for(const a of articles){const url=safeLink(a.url,response.url);if(!a.title||!ur
 }catch(e){result.errors.push({source:s.name,error:e.message})}}}
 
 export async function createBuildAI(heroId){return generateBuild(services().db,model,now,heroId)}
+export async function createMatchPrediction(matchId){return predictMatch(services().db,model,now,matchId)}
 export async function refreshSources(){
  const {db}=services(),lease=db.collection('system').doc('updaterLease'),token=randomUUID();
  const acquired=await db.runTransaction(async t=>{const old=(await t.get(lease)).data();if(old?.until>Date.now())return false;t.set(lease,{token,until:Date.now()+15*60000});return true});
@@ -31,8 +33,8 @@ export async function refreshSources(){
   await refreshCommunityMeta(db,trustedFetch,result,now);
   await refreshEsports(db,trustedFetch,result,now);
   await refreshCustomSources(db,result);
-  if(aiConfigured()){await publishUzbekNews(db,model,result,now,deadline);await warmBuilds(db,model,now,result,deadline)}else result.errors.push({source:'AI',error:'O‘zbekcha News va buildlar uchun server AI kaliti kerak.'});
-  result.status=result.errors.length?'partial':result.added||result.updated||result.buildsGenerated?'succeeded':'no-new-data';
+  if(aiConfigured()){await refreshPredictions(db,model,now,result,deadline);await publishUzbekNews(db,model,result,now,deadline);await warmBuilds(db,model,now,result,deadline)}else result.errors.push({source:'AI',error:'O‘zbekcha News va buildlar uchun server AI kaliti kerak.'});
+  result.status=result.errors.length?'partial':result.added||result.updated||result.buildsGenerated||result.matchesUpdated||result.predictionsGenerated?'succeeded':'no-new-data';
  }catch(e){result.status='failed';result.errors.push({source:'Updater',error:e.message})}
  finally{result.finishedAt=now();await run.set(result);await db.runTransaction(async t=>{if((await t.get(lease)).data()?.token===token)t.delete(lease)})}
  return result;

@@ -30,10 +30,44 @@ export async function comments(selector,kind,id){const el=$(selector);if(!state.
 export function confirmDelete(kind,id,done){modal('Yozuvni o‘chirish','<p>Bu yozuv o‘chiriladi. Davom etasizmi?</p><div class="actions"><button class="button danger" id="confirm-delete">O‘chirish</button><button class="button ghost" id="cancel-delete">Bekor qilish</button></div>',()=>{$('#cancel-delete').onclick=closeModal;$('#confirm-delete').onclick=async()=>{try{await api('delete',{kind,id});closeModal();done()}catch(e){toast(e.message)}}})}
 export function notFound(){$('#main').innerHTML=heading('404','Bu sahifa topilmadi.')+empty('Bosh sahifaga qayting','Havola eskirgan yoki sahifa mavjud emas.','<a href="/#/home" class="button">Bosh sahifa</a>')}
 
+const officialLeagues=[['ph','MPL Philippines'],['my','MPL Malaysia'],['id','MPL Indonesia']];
+let officialLeague='ph';
+const matchDate=value=>new Intl.DateTimeFormat('uz-UZ',{timeZone:'Asia/Tashkent',dateStyle:'medium',timeStyle:'short'}).format(new Date(value));
+export function matchForecast(r){
+ const p=r.prediction;
+ if(!p)return '<p class="muted">AI taxmini hali tayyorlanmagan.</p>';
+ const title=p.status==='insufficient'?'Ma’lumot yetarli emas':p.favorite?esc(p.favorite)+' ustunroq ko‘rinadi':'Aniq favorit yo‘q';
+ return `<div class="notice"><span class="tag purple">AI TAXMINI</span><h3>${title}</h3><p class="post-body">${esc(p.analysis)}</p><div class="chips"><span class="tag">${esc(r.teamA)}: ${p.teamA.played} o‘yin · ${p.teamA.wins} g‘alaba / ${p.teamA.losses} mag‘lubiyat</span><span class="tag">${esc(r.teamB)}: ${p.teamB.played} o‘yin · ${p.teamB.wins} g‘alaba / ${p.teamB.losses} mag‘lubiyat</span></div><p class="small-text">So‘nggi 5 tagacha tasdiqlangan o‘yin · ${esc(matchDate(p.generatedAt))}</p><p class="legend">${esc(p.notice)}</p></div>`;
+}
 export function officialMatches(){
- $('#main').innerHTML=`${heading('Rasmiy o‘yinlar','Oxirgi 30 kun natijalari va yaqin 7 kun o‘yinlari. Vaqt Toshkent bo‘yicha.')}<div class="card"><h2>Rasmiy ligalar</h2><div class="actions"><a class="button ghost" href="https://ph-mpl.com/schedule" target="_blank" rel="noopener noreferrer">MPL Philippines</a><a class="button ghost" href="https://my.mpl.mobilelegends.com/schedule" target="_blank" rel="noopener noreferrer">MPL Malaysia</a><a class="button ghost" href="https://id-mpl.com/" target="_blank" rel="noopener noreferrer">MPL Indonesia</a></div><p class="legend">Hisoblar MPL PH rasmiy jadvalidan har 6 soatda olinadi. Qolgan ligalar jadvali havolalar orqali ochiladi.</p></div><div class="toolbar"><select id="official-status"><option value="">Barchasi</option><option value="finished">Yakunlangan</option><option value="scheduled">Rejalashtirilgan</option></select></div><div id="official-list" class="grid two mobile-one"></div>`;
+ const start=new Date(Date.now()-15*86400000),end=new Date(Date.now()+15*86400000);
+ $('#main').innerHTML=`${heading('Rasmiy o‘yinlar','15 kun oldingi natijalar va 15 kun keyingi jadval. Vaqt Toshkent bo‘yicha.')}<div class="card"><h2>Ligani tanlang</h2><div class="chips" id="official-leagues">${officialLeagues.map(([key,label])=>`<button class="chip ${officialLeague===key?'active':''}" data-official-league="${key}">${label}</button>`).join('')}</div><p class="small-text">${esc(matchDate(start))} — ${esc(matchDate(end))}</p><p class="legend">Rasmiy jadvallar har 6 soatda yangilanadi. AI kelgusi o‘yinlarni yaqindagi natijalar asosida tahlil qiladi; g‘alaba kafolatlanmaydi.</p></div><div class="toolbar"><input id="official-search" aria-label="Jamoa qidirish" placeholder="Jamoa nomi…"><select id="official-status" aria-label="O‘yin holati"><option value="">Barchasi</option><option value="finished">Yakunlangan</option><option value="scheduled">Kelgusi o‘yinlar</option><option value="pending">Natijasi kutilmoqda</option></select><button class="button ghost" id="official-reload">Yangilash</button></div><div id="official-summary"></div><div id="official-list" class="grid two mobile-one"></div>`;
+ $('#official-reload').onclick=officialMatches;
  mountCollection('#official-list','officialMatches',rows=>{
-  const draw=()=>{const mode=$('#official-status')?.value||'';const list=rows.filter(r=>new Date(r.date)>=Date.now()-30*86400000&&new Date(r.date)<=Date.now()+7*86400000&&(!mode||r.status===mode)).sort((a,b)=>b.date.localeCompare(a.date));return list.map(r=>`<article class="card"><div class="row"><span class="tag">${esc(r.league)}</span><span class="tag flex-end">${r.status==='finished'?'Yakunlangan':'Rejalashtirilgan'}</span></div><h2>${esc(r.teamA)} <span class="accent">${esc(r.score||'VS')}</span> ${esc(r.teamB)}</h2><p>${esc(new Intl.DateTimeFormat('uz-UZ',{timeZone:'Asia/Tashkent',dateStyle:'medium',timeStyle:'short'}).format(new Date(r.date)))}</p>${source(r)}<a class="button ghost" href="${esc(safeUrl(r.sourceUrl))}" target="_blank" rel="noopener noreferrer">Rasmiy natija / o‘yin havolasi</a></article>`).join('')||empty('Yangi o‘yin topilmadi','Rasmiy jadvalni yuqoridagi havoladan oching. Yangilash holatini Admin → AI Data’da tekshiring.')};
-  setTimeout(()=>{if($('#official-status'))$('#official-status').onchange=()=>$('#official-list').innerHTML=draw()},0);return draw();
+  const main=$('#main');
+  const draw=()=>{
+   if(!$('#official-list')||$('#main')!==main)return '';
+   const mode=$('#official-status').value,q=$('#official-search').value.toLowerCase(),clock=Date.now();
+   const leagueRows=rows.filter(r=>r.leagueKey===officialLeague&&r.active!==false&&Date.parse(r.date)>=clock-15*86400000&&Date.parse(r.date)<=clock+15*86400000);
+   const upcoming=leagueRows.filter(r=>r.status!=='finished'&&Date.parse(r.date)>clock).length,finished=leagueRows.filter(r=>r.status==='finished').length;
+   $('#official-summary').innerHTML=`<p class="result-count">${esc(officialLeagues.find(l=>l[0]===officialLeague)?.[1])} · ${finished} natija · ${upcoming} kelgusi o‘yin</p>`;
+   const list=leagueRows.filter(r=>{const status=r.status==='finished'?'finished':Date.parse(r.date)>clock?'scheduled':'pending';return (!mode||status===mode)&&(r.teamA+' '+r.teamB).toLowerCase().includes(q)});
+   const ordered=[...list.filter(r=>r.status!=='finished'&&Date.parse(r.date)>clock).sort((a,b)=>a.date.localeCompare(b.date)),...list.filter(r=>r.status==='finished'||Date.parse(r.date)<=clock).sort((a,b)=>b.date.localeCompare(a.date))];
+   const html=ordered.map(r=>{
+    const future=r.status!=='finished'&&Date.parse(r.date)>clock,stale=Date.now()-Date.parse(r.updatedAt)>48*3600000;
+    const scores=r.score?.split(':').map(Number),winner=r.status==='finished'&&scores?(scores[0]>scores[1]?r.teamA:r.teamB):'';
+    return `<article class="card"><div class="row"><span class="tag">${esc(r.league)}</span><span class="tag flex-end">${r.status==='finished'?'Yakunlangan':future?'Kelgusi o‘yin':'Natijasi kutilmoqda'}</span></div><h2>${esc(r.teamA)} <span class="accent">${esc(r.score||'VS')}</span> ${esc(r.teamB)}</h2><p>${esc(matchDate(r.date))}</p>${winner?`<p class="accent">G‘olib: ${esc(winner)}</p>`:''}<p class="small-text">Manba: ${esc(r.sourceName)} · Tekshirildi: ${esc(matchDate(r.updatedAt))}</p>${stale?'<p class="notice">Jadval 48 soatdan beri tekshirilmagan. Sana va natija o‘zgargan bo‘lishi mumkin.</p>':''}${future?`<div id="forecast-${r.id}">${matchForecast(r)}</div><button class="button secondary" data-match-predict="${r.id}" ${stale?'disabled':''}>${r.prediction?'AI taxminini yangilash':'AI kim yutishi mumkinligini aytsin'}</button>`:''}<details><summary>Rasmiy manba va video</summary><div class="actions"><a class="button ghost small" href="${esc(safeUrl(r.sourceUrl))}" target="_blank" rel="noopener noreferrer">Original manba</a>${r.videoUrl?`<a class="button ghost small" href="${esc(safeUrl(r.videoUrl))}" target="_blank" rel="noopener noreferrer">O‘yin videosi</a>`:''}</div></details></article>`;
+   }).join('')||empty('Bu oraliqda o‘yin topilmadi','Boshqa liga yoki filtrni tanlang. Ma’lumot kelmagan bo‘lsa, Admin → AI Data → Run Now orqali yangilang.');
+   return html;
+  };
+  const bind=()=>{
+   $$('[data-match-predict]').forEach(button=>button.onclick=async()=>{
+    if(!requireUser())return;const row=rows.find(r=>r.id===button.dataset.matchPredict);
+    try{const result=await busy(button,()=>api('match-predict',{id:row.id}));row.prediction=result.prediction;const el=$('#forecast-'+row.id);if(el)el.innerHTML=matchForecast(row);button.textContent='AI taxminini yangilash'}catch(e){toast(e.message)}
+   });
+  };
+  const redraw=()=>{if(!$('#official-list'))return;$('#official-list').innerHTML=draw();bind()};
+  setTimeout(()=>{if(!$('#official-status'))return;$('#official-status').onchange=redraw;$('#official-search').oninput=redraw;$$('[data-official-league]').forEach(button=>button.onclick=()=>{officialLeague=button.dataset.officialLeague;$$('[data-official-league]').forEach(b=>b.classList.toggle('active',b===button));redraw()});bind()},0);
+  return draw();
  },{limit:200});
 }
