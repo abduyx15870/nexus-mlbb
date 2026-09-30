@@ -1,4 +1,5 @@
-const CACHE='nexus-v1';const STATIC=['/','/index.html','/style.css','/js/app.js','/js/core.js','/js/data.js','/js/config.js','/js/auth.js','/js/views.js','/js/social.js','/js/quiz.js','/data/heroes.json','/data/items.json','/data/quiz-data.json','/assets/favicon.svg'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC))));
+const CACHE='nexus-v4';const STATIC=['/','/index.html','/style.css','/js/app.js','/js/core.js','/js/data.js','/js/equipment.js','/js/quiz-labels.js','/js/config.js','/js/auth.js','/js/views.js','/js/social.js','/js/quiz.js','/data/heroes.json','/data/items.json','/data/quiz-data.json','/assets/favicon.svg'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));
+self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==location.origin||u.pathname.startsWith('/api/')||u.pathname.startsWith('/.netlify/'))return;e.respondWith(fetch(e.request).catch(()=>caches.match(e.request).then(r=>r||(e.request.mode==='navigate'?caches.match('/index.html'):Response.error()))));});

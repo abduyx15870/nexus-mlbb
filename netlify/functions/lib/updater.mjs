@@ -1,3 +1,4 @@
+import {refreshCounters} from './counter-updater.mjs';
 import {createHash,randomUUID} from 'node:crypto';
 import {XMLParser} from 'fast-xml-parser';
 import {services,HttpError,now} from './db.mjs';
@@ -6,7 +7,7 @@ import {collectNews,publishUzbekNews} from './news-updater.mjs';
 import {generateBuild,warmBuilds} from './build-generator.mjs';
 import {predictMatch,refreshPredictions} from './match-predictions.mjs';
 import {refreshEsports} from './esports-updater.mjs';
-const HOSTS=new Set(['www.mobilelegends.com','mobilelegends.com','my.mpl.mobilelegends.com','ph-mpl.com','id-mpl.com','www.oneesports.gg','www.esports.gg','esports.gg','mlbbdex.com']);
+const HOSTS=new Set(['www.mobilelegends.com','mobilelegends.com','my.mpl.mobilelegends.com','ph-mpl.com','id-mpl.com','www.oneesports.gg','www.esports.gg','esports.gg','mlbbdex.com','mlbbhub.com']);
 export function safeLink(value,base){try{const u=new URL(value,base);return u.protocol==='https:'&&HOSTS.has(u.hostname)?u.href:null}catch{return null}}
 export async function trustedFetch(url){let current=safeLink(url);if(!current)throw new Error('Manba domeniga ruxsat yo‘q.');for(let i=0;i<4;i++){const r=await fetch(current,{redirect:'manual',headers:{'User-Agent':'NEXUS-Community/1.0'},signal:AbortSignal.timeout(9000)});if(r.status>=300&&r.status<400){current=safeLink(r.headers.get('location'),current);if(!current)throw new Error('Manba boshqa domenga yo‘naltirdi.');continue}if(!r.ok)throw new Error('Manba javobi: '+r.status);const reader=r.body.getReader();const chunks=[];let size=0;while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>4000000){await reader.cancel();throw new Error('Manba hajmi katta.')}chunks.push(value)}const text=Buffer.concat(chunks.map(c=>Buffer.from(c))).toString('utf8');return {text,url:current,type:r.headers.get('content-type')||''}}throw new Error('Yo‘naltirishlar juda ko‘p.')}
 const plain=s=>String(s||'').replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ').replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/\s+/g,' ').trim();
@@ -32,6 +33,7 @@ export async function refreshSources(){
   await collectNews(db,trustedFetch,safeLink,result);
   await refreshCommunityMeta(db,trustedFetch,result,now);
   await refreshEsports(db,trustedFetch,result,now);
+  await refreshCounters(db,trustedFetch,result,now);
   await refreshCustomSources(db,result);
   if(aiConfigured()){await refreshPredictions(db,model,now,result,deadline);await publishUzbekNews(db,model,result,now,deadline);await warmBuilds(db,model,now,result,deadline)}else result.errors.push({source:'AI',error:'O‘zbekcha News va buildlar uchun server AI kaliti kerak.'});
   result.status=result.errors.length?'partial':result.added||result.updated||result.buildsGenerated||result.matchesUpdated||result.predictionsGenerated?'succeeded':'no-new-data';

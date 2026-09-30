@@ -3,300 +3,500 @@
     "id": "warrior-boots",
     "name": "Warrior Boots",
     "type": "Movement",
-    "effect": "Physical himoya"
+    "effect": "Physical himoya",
+    "image": "/assets/items/warrior-boots.webp",
+    "description": "Yurish tezligi va physical himoya beradi; basic attack bosimiga qarshi himoyani kuchaytiradi.",
+    "when": "Raqibning basic attack va physical zarari ustun bo‘lsa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "tough-boots",
     "name": "Tough Boots",
     "type": "Movement",
-    "effect": "Magic himoya va nazorat davomiyligi"
+    "effect": "Magic himoya va nazorat davomiyligi",
+    "image": "/assets/items/tough-boots.webp",
+    "description": "Yurish tezligi, magic himoya va ayrim nazorat effektlari davomiyligini qisqartirishga yordam beradi. Suppression kabi barcha CCga bir xil ta’sir qilmaydi.",
+    "when": "Magic zarar va ko‘p nazoratga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "arcane-boots",
     "name": "Arcane Boots",
     "type": "Movement",
-    "effect": "Magic penetration"
+    "effect": "Magic penetration",
+    "image": "/assets/items/arcane-boots.webp",
+    "description": "Magic penetration berib, magic zararining raqib himoyasidan o‘tishiga yordam beradi.",
+    "when": "Magic burst bilan erta bosim qilish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "swift-boots",
     "name": "Swift Boots",
     "type": "Movement",
-    "effect": "Attack speed"
+    "effect": "Attack speed",
+    "image": "/assets/items/swift-boots.webp",
+    "description": "Yurish va basic attack tezligini oshiradi.",
+    "when": "Basic attackga tayanadigan herolar uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "magic-shoes",
     "name": "Magic Shoes",
     "type": "Movement",
-    "effect": "Cooldown qisqartirish"
+    "effect": "Cooldown qisqartirish",
+    "image": "/assets/items/magic-shoes.webp",
+    "description": "Yurish tezligi beradi va skill cooldownlarini qisqartiradi.",
+    "when": "Skilllarni tez-tez ishlatish kerak bo‘lsa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "demon-shoes",
     "name": "Demon Shoes",
     "type": "Movement",
-    "effect": "Mana tiklash"
+    "effect": "Mana tiklash",
+    "image": "/assets/items/demon-shoes.webp",
+    "description": "Mana tiklash orqali lane’da uzoqroq qolishga yordam beradi.",
+    "when": "Mana tez tugaydigan herolar uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "rapid-boots",
     "name": "Rapid Boots",
     "type": "Movement",
-    "effect": "Rotatsiya tezligi"
+    "effect": "Rotatsiya tezligi",
+    "image": "/assets/items/rapid-boots.webp",
+    "description": "Xarita bo‘ylab tez yurish va rotatsiyaga yo‘naltirilgan.",
+    "when": "Lane’lar orasida tez yordamga borish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "blade-of-despair",
     "name": "Blade of Despair",
     "type": "Physical",
-    "effect": "Yuqori physical attack"
+    "effect": "Yuqori physical attack",
+    "image": "/assets/items/blade-of-despair.webp",
+    "description": "Katta physical attack beradi. HPsi pasaygan raqibga zararni kuchaytiradi.",
+    "when": "Physical buildning kuchli yakunlovchi itemi sifatida.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "berserker-s-fury",
     "name": "Berserker’s Fury",
     "type": "Physical",
-    "effect": "Kritik zarar"
+    "effect": "Kritik zarar",
+    "image": "/assets/items/berserker-s-fury.webp",
+    "description": "Kritik zarba ehtimoli va kritik hujum samarasini kuchaytiradi.",
+    "when": "Critical basic attack buildlarida.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "windtalker",
     "name": "Windtalker",
     "type": "Physical",
-    "effect": "Hujum tezligi"
+    "effect": "Hujum tezligi",
+    "image": "/assets/items/windtalker.webp",
+    "description": "Hujum tezligi va qo‘shimcha tarqaluvchi zarar orqali minion tozalashga yordam beradi.",
+    "when": "Tez basic attack va lane tozalash uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "haas-s-claws",
     "name": "Haas’s Claws",
     "type": "Physical",
-    "effect": "Lifesteal"
+    "effect": "Lifesteal",
+    "image": "/assets/items/haas-s-claws.webp",
+    "description": "Basic attackdan HP tiklash, ya’ni lifesteal beradi.",
+    "when": "Basic attack qilayotib HPni saqlash uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "malefic-roar",
     "name": "Malefic Roar",
     "type": "Physical",
-    "effect": "Physical penetration"
+    "effect": "Physical penetration",
+    "image": "/assets/items/malefic-roar.webp",
+    "description": "Physical penetration orqali raqibning physical himoyasiga qarshi ishlaydi.",
+    "when": "Physical defense yig‘gan raqibga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "hunter-strike",
     "name": "Hunter Strike",
     "type": "Physical",
-    "effect": "Physical burst va harakat"
+    "effect": "Physical burst va harakat",
+    "image": "/assets/items/hunter-strike.webp",
+    "description": "Physical skill zarariga yordam beradi; ketma-ket urishdan keyin harakat imkonini kuchaytiradi.",
+    "when": "Skill bilan burst qilish va tez chiqib ketish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "blade-of-the-heptaseas",
     "name": "Blade of the Heptaseas",
     "type": "Physical",
-    "effect": "Dastlabki zarba bosimi"
+    "effect": "Dastlabki zarba bosimi",
+    "image": "/assets/items/blade-of-the-heptaseas.webp",
+    "description": "Jangga kirishdagi dastlabki basic attackni kuchaytirishga yo‘naltirilgan.",
+    "when": "Kutib turib bitta nishonga kuchli zarba beradigan herolar uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "endless-battle",
     "name": "Endless Battle",
     "type": "Physical",
-    "effect": "Skilldan keyingi basic attack"
+    "effect": "Skilldan keyingi basic attack",
+    "image": "/assets/items/endless-battle.webp",
+    "description": "Skill ishlatilgandan keyingi basic attackga qo‘shimcha true damage beradi.",
+    "when": "Skill va basic attackni navbatlab ishlatadigan herolar uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "demon-hunter-sword",
     "name": "Demon Hunter Sword",
     "type": "Physical",
-    "effect": "HPga qarshi basic attack"
+    "effect": "HPga qarshi basic attack",
+    "image": "/assets/items/demon-hunter-sword.webp",
+    "description": "Basic attackga nishon HPiga bog‘liq qo‘shimcha zarar beradi.",
+    "when": "HPsi katta raqibni ketma-ket basic attack bilan urish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "golden-staff",
     "name": "Golden Staff",
     "type": "Physical",
-    "effect": "On-hit sinergiya"
+    "effect": "On-hit sinergiya",
+    "image": "/assets/items/golden-staff.webp",
+    "description": "Basic attackga qo‘shilgan on-hit effektlarni ko‘proq ishga tushirishga yo‘naltirilgan. Critical build bilan mosligini tekshiring.",
+    "when": "Demon Hunter Sword kabi on-hit effektlar bilan.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "corrosion-scythe",
     "name": "Corrosion Scythe",
     "type": "Physical",
-    "effect": "Basic attack orqali slow"
+    "effect": "Basic attack orqali slow",
+    "image": "/assets/items/corrosion-scythe.webp",
+    "description": "Basic attack bilan raqibni sekinlashtirish va hujum tezligini oshirishga yordam beradi.",
+    "when": "Nishonni qochirmasdan ketma-ket urish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "sea-halberd",
     "name": "Sea Halberd",
     "type": "Physical",
-    "effect": "Tiklanishga qarshi"
+    "effect": "Tiklanishga qarshi",
+    "image": "/assets/items/sea-halberd.webp",
+    "description": "Zarar yetkazilgan raqibning HP tiklashi va qalqon samarasini kamaytirishga yordam beradi.",
+    "when": "Kuchli heal, lifesteal yoki qalqonga qarshi physical buildda.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "wind-of-nature",
     "name": "Wind of Nature",
     "type": "Physical",
-    "effect": "Vaqtincha physical immunity"
+    "effect": "Vaqtincha physical immunity",
+    "image": "/assets/items/wind-of-nature.webp",
+    "description": "Faol tugmasi qisqa muddat physical zarardan himoya qiladi. Magic va true damage uchun to‘liq himoya bermaydi.",
+    "when": "Physical burst yoki marksman dueli oldidan faol ishlatish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "rose-gold-meteor",
     "name": "Rose Gold Meteor",
     "type": "Physical",
-    "effect": "Himoya qalqoni"
+    "effect": "Himoya qalqoni",
+    "image": "/assets/items/rose-gold-meteor.webp",
+    "description": "Xavfli HP holatida qalqon orqali omon qolishga yordam beradi.",
+    "when": "Zarar yetkazishda davom etib himoya ham kerak bo‘lsa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "great-dragon-spear",
     "name": "Great Dragon Spear",
     "type": "Physical",
-    "effect": "Ultimate bilan harakat"
+    "effect": "Ultimate bilan harakat",
+    "image": "/assets/items/great-dragon-spear.webp",
+    "description": "Ultimate ishlatilgandan keyin harakatni kuchaytirishga yo‘naltirilgan.",
+    "when": "Ultimate’dan keyin nishonni quvish yoki joylashuvni o‘zgartirish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "war-axe",
     "name": "War Axe",
     "type": "Physical",
-    "effect": "Uzoq jang"
+    "effect": "Uzoq jang",
+    "image": "/assets/items/war-axe.webp",
+    "description": "Uzoq davom etadigan jangda ketma-ket zarar yetkazish orqali kuchayadi.",
+    "when": "Qisqa bitta zarbadan ko‘ra uzoq jang qiladigan fighter uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "sky-piercer",
     "name": "Sky Piercer",
     "type": "Adaptive",
-    "effect": "Past HPli nishonni yakunlash"
+    "effect": "Past HPli nishonni yakunlash",
+    "image": "/assets/items/sky-piercer.webp",
+    "description": "HPsi juda kam qolgan nishonni yakunlashga yordam beradi; stack mexanikasiga ega.",
+    "when": "Killni yakunlashga tayanadigan buildda; himoya va asosiy zarar o‘rnini to‘liq bosmaydi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "holy-crystal",
     "name": "Holy Crystal",
     "type": "Magic",
-    "effect": "Magic power"
+    "effect": "Magic power",
+    "image": "/assets/items/holy-crystal.webp",
+    "description": "Magic powerni kuchli oshiradi.",
+    "when": "Magic zararini keyingi bosqichda kuchaytirish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "divine-glaive",
     "name": "Divine Glaive",
     "type": "Magic",
-    "effect": "Magic penetration"
+    "effect": "Magic penetration",
+    "image": "/assets/items/divine-glaive.webp",
+    "description": "Foizli magic penetration bilan yuqori magic himoyaga qarshi ishlaydi.",
+    "when": "Raqib magic defense itemlarini yig‘sa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "genius-wand",
     "name": "Genius Wand",
     "type": "Magic",
-    "effect": "Magic defense kamaytirish"
+    "effect": "Magic defense kamaytirish",
+    "image": "/assets/items/genius-wand.webp",
+    "description": "Magic zarba bilan raqib magic himoyasini kamaytirishga yordam beradi.",
+    "when": "Ketma-ket magic hujumlar va jamoaning magic zarari uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "glowing-wand",
     "name": "Glowing Wand",
     "type": "Magic",
-    "effect": "Davomiy zarar va tiklanishga qarshi"
+    "effect": "Davomiy zarar va tiklanishga qarshi",
+    "image": "/assets/items/glowing-wand.webp",
+    "description": "Magic zararidan keyin kuydirish va raqib tiklanishini kamaytirish effektiga yo‘naltirilgan.",
+    "when": "Davomiy magic damage va healga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "ice-queen-wand",
     "name": "Ice Queen Wand",
     "type": "Magic",
-    "effect": "Skill orqali slow"
+    "effect": "Skill orqali slow",
+    "image": "/assets/items/ice-queen-wand.webp",
+    "description": "Skill zarari bilan raqibni sekinlashtirib masofa saqlashga yordam beradi.",
+    "when": "Skill bilan quvish yoki yaqinlashishni to‘xtatish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "concentrated-energy",
     "name": "Concentrated Energy",
     "type": "Magic",
-    "effect": "Magic sustain"
+    "effect": "Magic sustain",
+    "image": "/assets/items/concentrated-energy.webp",
+    "description": "Magic buildda zarar yetkazib HP tiklash va uzoq jang qilishga yordam beradi.",
+    "when": "Magic sustain talab qiladigan yaqin janglarda.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "feather-of-heaven",
     "name": "Feather of Heaven",
     "type": "Magic",
-    "effect": "Magic basic attack"
+    "effect": "Magic basic attack",
+    "image": "/assets/items/feather-of-heaven.webp",
+    "description": "Basic attackga magic zarar qo‘shish va tezroq hujum qilishga yo‘naltirilgan.",
+    "when": "Magic power bilan basic attack ishlatadigan herolar uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "lightning-truncheon",
     "name": "Lightning Truncheon",
     "type": "Magic",
-    "effect": "Magic burst"
+    "effect": "Magic burst",
+    "image": "/assets/items/lightning-truncheon.webp",
+    "description": "Skill bilan qo‘shimcha magic burst yetkazishga yordam beradi.",
+    "when": "Bir skill kombinatsiyasi bilan kuchli zarar berish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "clock-of-destiny",
     "name": "Clock of Destiny",
     "type": "Magic",
-    "effect": "Magic jangchi uchun himoya"
+    "effect": "Magic jangchi uchun himoya",
+    "image": "/assets/items/clock-of-destiny.webp",
+    "description": "Magic zarar berib jangda qoladigan heroga resurs va himoya bilan yordam beradi.",
+    "when": "Magic frontliner va uzoq jangga yo‘naltirilgan buildlarda.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "enchanted-talisman",
     "name": "Enchanted Talisman",
     "type": "Magic",
-    "effect": "Mana va cooldown"
+    "effect": "Mana va cooldown",
+    "image": "/assets/items/enchanted-talisman.webp",
+    "description": "Mana tiklanishi va cooldown qisqartirishga yo‘naltirilgan.",
+    "when": "Skillni ko‘p ishlatadigan, mana sarfi katta hero uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "fleeting-time",
     "name": "Fleeting Time",
     "type": "Magic",
-    "effect": "Ultimate sikli"
+    "effect": "Ultimate sikli",
+    "image": "/assets/items/fleeting-time.webp",
+    "description": "Kill yoki assistdan keyin ultimate cooldownini qisqartirishga yordam beradi.",
+    "when": "Jamoaviy janglarda ultimate’ni tezroq qayta ishlatish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "winter-crown",
     "name": "Winter Crown",
     "type": "Adaptive",
-    "effect": "Vaqtincha muzlash himoyasi"
+    "effect": "Vaqtincha muzlash himoyasi",
+    "image": "/assets/items/winter-crown.webp",
+    "description": "Faol tugmasi heroni qisqa muddat muzlatib xavfli zarbadan saqlaydi; shu payt harakat va hujum cheklanadi.",
+    "when": "Muhim burst kelayotgan paytda faol ishlatish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "blood-wings",
     "name": "Blood Wings",
     "type": "Magic",
-    "effect": "Magic qalqon"
+    "effect": "Magic qalqon",
+    "image": "/assets/items/blood-wings.webp",
+    "description": "Magic power va himoya qalqoni orqali mage’ning omon qolishiga yordam beradi.",
+    "when": "Magic zarar bilan birga qo‘shimcha himoya kerak bo‘lsa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "wishing-lantern",
     "name": "Wishing Lantern",
     "type": "Magic",
-    "effect": "HPga qarshi magic zarar"
+    "effect": "HPga qarshi magic zarar",
+    "image": "/assets/items/wishing-lantern.webp",
+    "description": "Magic zarar ortidan HPga bog‘liq qo‘shimcha zarar berishga yo‘naltirilgan.",
+    "when": "HPsi katta raqiblarga magic build bilan qarshi turish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "athena-s-shield",
     "name": "Athena’s Shield",
     "type": "Defense",
-    "effect": "Magic burstga qarshi"
+    "effect": "Magic burstga qarshi",
+    "image": "/assets/items/athena-s-shield.webp",
+    "description": "Kuchli, qisqa magic burstni kamaytirishga yordam beradi.",
+    "when": "Bir kombinatsiyada katta magic zarar yetkazadigan raqibga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "radiant-armor",
     "name": "Radiant Armor",
     "type": "Defense",
-    "effect": "Davomiy magic zararga qarshi"
+    "effect": "Davomiy magic zararga qarshi",
+    "image": "/assets/items/radiant-armor.webp",
+    "description": "Ketma-ket tushayotgan magic zararga qarshi himoyani kuchaytiradi.",
+    "when": "Ko‘p kichik magic zarba beradigan raqibga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "antique-cuirass",
     "name": "Antique Cuirass",
     "type": "Defense",
-    "effect": "Physical skill zararga qarshi"
+    "effect": "Physical skill zararga qarshi",
+    "image": "/assets/items/antique-cuirass.webp",
+    "description": "Raqib skill bilan urganda uning physical zararini kamaytirishga yordam beradi.",
+    "when": "Physical skillga tayanadigan assassin yoki fighterga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "blade-armor",
     "name": "Blade Armor",
     "type": "Defense",
-    "effect": "Basic attackka qarshi"
+    "effect": "Basic attackka qarshi",
+    "image": "/assets/items/blade-armor.webp",
+    "description": "Physical himoya beradi va raqib basic attackiga javoban zarar qaytaradi.",
+    "when": "Basic attack va critical bosimga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "dominance-ice",
     "name": "Dominance Ice",
     "type": "Defense",
-    "effect": "Tiklanish va hujum tezligiga qarshi"
+    "effect": "Tiklanish va hujum tezligiga qarshi",
+    "image": "/assets/items/dominance-ice.webp",
+    "description": "Oldingi safda himoya va raqibning tiklanishiga qarshi effektlar uchun ishlatiladi.",
+    "when": "Tank yoki fighter heal va qalqonga qarshi turishi kerak bo‘lsa.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "immortality",
     "name": "Immortality",
     "type": "Defense",
-    "effect": "Qayta tirilish"
+    "effect": "Qayta tirilish",
+    "image": "/assets/items/immortality.webp",
+    "description": "O‘limdan keyin qayta tirilish imkonini beradi. Effektning uzoq cooldowni bor.",
+    "when": "Muhim late game jangida ikkinchi imkon uchun; qayta tirilish joyi xavfsiz bo‘lishi kerak.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "oracle",
     "name": "Oracle",
     "type": "Defense",
-    "effect": "Qalqon va tiklanishni kuchaytirish"
+    "effect": "Qalqon va tiklanishni kuchaytirish",
+    "image": "/assets/items/oracle.webp",
+    "description": "O‘zingizga keladigan HP tiklanishi va qalqon samarasini kuchaytiradi.",
+    "when": "O‘z heal yoki qalqoniga tayanadigan hero uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "guardian-helmet",
     "name": "Guardian Helmet",
     "type": "Defense",
-    "effect": "Jangdan tashqari HP tiklash"
+    "effect": "Jangdan tashqari HP tiklash",
+    "image": "/assets/items/guardian-helmet.webp",
+    "description": "Katta HP va jangdan tashqarida tiklanishga yordam beradi.",
+    "when": "Bazaga qaytmasdan yana frontlineda turish uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "brute-force-breastplate",
     "name": "Brute Force Breastplate",
     "type": "Defense",
-    "effect": "Uzoq jangda himoya"
+    "effect": "Uzoq jangda himoya",
+    "image": "/assets/items/brute-force-breastplate.webp",
+    "description": "Ketma-ket hujum va skill bilan uzoq jangda atributlar va harakatni kuchaytirishga yo‘naltirilgan.",
+    "when": "Doim hujum qilib turadigan yaqin jang herosi uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "thunder-belt",
     "name": "Thunder Belt",
     "type": "Defense",
-    "effect": "Basic attack va slow"
+    "effect": "Basic attack va slow",
+    "image": "/assets/items/thunder-belt.webp",
+    "description": "Kuchaygan basic attack, slow va uzoq jangda himoya yig‘ishga yordam beradi.",
+    "when": "Chidamli hero raqibni ushlab turishi va ketma-ket urishi uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "queen-s-wings",
     "name": "Queen’s Wings",
     "type": "Defense",
-    "effect": "Past HPda omon qolish"
+    "effect": "Past HPda omon qolish",
+    "image": "/assets/items/queen-s-wings.webp",
+    "description": "Past HP holatida zarar kamaytirish va jangda tiklanish orqali omon qolishga yordam beradi.",
+    "when": "Past HPda ham jangni davom ettiradigan fighter uchun.",
+    "sourceUrl": "https://mlbbdex.com/items"
   },
   {
     "id": "twilight-armor",
     "name": "Twilight Armor",
     "type": "Defense",
-    "effect": "Katta bir martalik zarbaga qarshi"
+    "effect": "Katta bir martalik zarbaga qarshi",
+    "image": "/assets/items/twilight-armor.webp",
+    "description": "Katta bir martalik zarbani yumshatishga yo‘naltirilgan.",
+    "when": "Bitta hujum bilan juda katta zarar beradigan raqibga qarshi.",
+    "sourceUrl": "https://mlbbdex.com/items"
   }
 ]
